@@ -1,0 +1,18 @@
+taxonomy:
+  source: catalogue_of_life
+  release: "2026-02"
+traits:
+  providers:
+    - name: traitbank
+      enabled: true
+    - name: fishbase
+      enabled: true
+    - name: avonet
+      enabled: true
+behavior_literature:
+  extraction_mode: ai_assisted
+  min_confidence: 0.6
+model:
+  shrinkage_weight_taxonomy: 0.6
+  shrinkage_weight_traits: 0.4
+  default_uncertainty_sd: 0.25

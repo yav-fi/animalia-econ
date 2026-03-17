@@ -1,0 +1,1 @@
+"""AnimaliaEcon data pipeline package."""

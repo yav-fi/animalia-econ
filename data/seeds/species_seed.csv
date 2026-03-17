@@ -1,0 +1,21 @@
+species,kingdom,phylum,class,order,family,genus,common_name,body_mass_kg,sociality_score,diet_breadth_score,activity_pattern,habitat_type,source_confidence
+Pan troglodytes,Animalia,Chordata,Mammalia,Primates,Hominidae,Pan,Chimpanzee,45.0,0.92,0.74,diurnal,forest,high
+Bonobo paniscus,Animalia,Chordata,Mammalia,Primates,Hominidae,Pan,Bonobo,39.0,0.95,0.68,diurnal,forest,high
+Macaca mulatta,Animalia,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Rhesus macaque,7.7,0.85,0.66,diurnal,forest,high
+Sapajus apella,Animalia,Chordata,Mammalia,Primates,Cebidae,Sapajus,Tufted capuchin,3.3,0.81,0.71,diurnal,forest,medium
+Rattus norvegicus,Animalia,Chordata,Mammalia,Rodentia,Muridae,Rattus,Norway rat,0.35,0.58,0.63,nocturnal,urban,high
+Mus musculus,Animalia,Chordata,Mammalia,Rodentia,Muridae,Mus,House mouse,0.025,0.52,0.59,nocturnal,urban,high
+Corvus corax,Animalia,Chordata,Aves,Passeriformes,Corvidae,Corvus,Common raven,1.2,0.77,0.82,diurnal,mixed,medium
+Corvus moneduloides,Animalia,Chordata,Aves,Passeriformes,Corvidae,Corvus,New Caledonian crow,0.29,0.74,0.78,diurnal,forest,medium
+Nestor notabilis,Animalia,Chordata,Aves,Psittaciformes,Strigopidae,Nestor,Kea,0.95,0.83,0.73,diurnal,montane,medium
+Columba livia,Animalia,Chordata,Aves,Columbiformes,Columbidae,Columba,Rock pigeon,0.32,0.63,0.65,diurnal,urban,high
+Danio rerio,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Danio,Zebrafish,0.0005,0.44,0.48,diurnal,freshwater,high
+Poecilia reticulata,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Poeciliidae,Poecilia,Guppy,0.00012,0.51,0.46,diurnal,freshwater,high
+Gasterosteus aculeatus,Animalia,Chordata,Actinopterygii,Gasterosteiformes,Gasterosteidae,Gasterosteus,Three-spined stickleback,0.003,0.49,0.43,diurnal,freshwater,medium
+Octopus vulgaris,Animalia,Mollusca,Cephalopoda,Octopoda,Octopodidae,Octopus,Common octopus,10.0,0.31,0.57,nocturnal,marine,medium
+Sepia officinalis,Animalia,Mollusca,Cephalopoda,Sepiida,Sepiidae,Sepia,Common cuttlefish,4.0,0.36,0.52,crepuscular,marine,medium
+Apis mellifera,Animalia,Arthropoda,Insecta,Hymenoptera,Apidae,Apis,Western honey bee,0.0001,0.96,0.37,diurnal,terrestrial,high
+Bombus terrestris,Animalia,Arthropoda,Insecta,Hymenoptera,Apidae,Bombus,Buff-tailed bumblebee,0.0002,0.79,0.41,diurnal,terrestrial,medium
+Atta cephalotes,Animalia,Arthropoda,Insecta,Hymenoptera,Formicidae,Atta,Leafcutter ant,0.00003,0.98,0.33,diurnal,terrestrial,medium
+Drosophila melanogaster,Animalia,Arthropoda,Insecta,Diptera,Drosophilidae,Drosophila,Fruit fly,0.000001,0.22,0.29,diurnal,terrestrial,high
+Procambarus clarkii,Animalia,Arthropoda,Malacostraca,Decapoda,Cambaridae,Procambarus,Red swamp crayfish,0.055,0.38,0.42,nocturnal,freshwater,medium

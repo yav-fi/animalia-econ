@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AnimaliaEconPrior",
+  "type": "object",
+  "required": [
+    "species",
+    "risk_preference",
+    "temporal_discount_rate",
+    "effort_price_elasticity",
+    "cooperation_propensity",
+    "inequity_sensitivity",
+    "punishment_propensity",
+    "tokenization_capacity",
+    "uncertainty_sd",
+    "provenance_type"
+  ],
+  "properties": {
+    "species": {"type": "string"},
+    "risk_preference": {"type": "number", "minimum": 0.0, "maximum": 2.0},
+    "temporal_discount_rate": {"type": "number", "minimum": 0.0, "maximum": 2.0},
+    "effort_price_elasticity": {"type": "number", "minimum": -3.0, "maximum": 1.0},
+    "cooperation_propensity": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+    "inequity_sensitivity": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+    "punishment_propensity": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+    "tokenization_capacity": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+    "uncertainty_sd": {"type": "number", "minimum": 0.01, "maximum": 1.0},
+    "provenance_type": {
+      "type": "string",
+      "enum": ["observed", "imputed_taxonomy", "imputed_trait", "ai_estimated"]
+    },
+    "source_model": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}
