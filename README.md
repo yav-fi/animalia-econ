@@ -53,3 +53,7 @@ python -m sim.cli public-goods --species "Corvus corax"
 
 ## Current status
 This is a bootstrap scaffold with mocked data connectors and deterministic fallbacks. It is intended to make v0 -> v1 implementation fast while keeping provenance and uncertainty first-class.
+
+## License
+- Code: MIT License  
+- Dataset: CC BY 4.0 (see [DATA_LICENSE.md](/DATALICENSE.md))
