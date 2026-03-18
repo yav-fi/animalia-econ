@@ -1,0 +1,85 @@
+{
+  "version": "0.3.1",
+  "released_at": "2026-03-17T20:38:24Z",
+  "snapshot_dir": "releases/datasets/0.3.1",
+  "files": [
+    {
+      "path": "data/processed/animaliaecon_taxon_priors.csv",
+      "snapshot_path": "releases/datasets/0.3.1/animaliaecon_taxon_priors.csv",
+      "sha256": "4cedbe4312520b5b4797af3c3ebaa42de3d85871d6cf2262c19285facf85a323",
+      "size_bytes": "11585"
+    },
+    {
+      "path": "data/processed/animaliaecon_species_inherited.csv",
+      "snapshot_path": "releases/datasets/0.3.1/animaliaecon_species_inherited.csv",
+      "sha256": "5da6fd1ba922e5f79c0e38641d1ab177a4e811d958e3d84a002d46e0b9fa97e6",
+      "size_bytes": "7151"
+    },
+    {
+      "path": "data/processed/animaliaecon_species_observed.csv",
+      "snapshot_path": "releases/datasets/0.3.1/animaliaecon_species_observed.csv",
+      "sha256": "a2021b5f20d575f6d28bfe6495f789c897667caf33264b92bcbaff84683c4405",
+      "size_bytes": "7596"
+    },
+    {
+      "path": "data/processed/opentree_metazoa_phyla.csv",
+      "snapshot_path": "releases/datasets/0.3.1/opentree_metazoa_phyla.csv",
+      "sha256": "95b3038569272da3ffa46afb1872e2c74259521ca1b1f35b2a366df596f5a3b3",
+      "size_bytes": "2674"
+    },
+    {
+      "path": "data/processed/opentree_release_metadata.json",
+      "snapshot_path": "releases/datasets/0.3.1/opentree_release_metadata.json",
+      "sha256": "8dbd23dfdc74eec1b19fc39366ce158610b44358b34e15ed76f59580a017bcdf",
+      "size_bytes": "596"
+    },
+    {
+      "path": "schema/api/v1/index.json",
+      "snapshot_path": "releases/datasets/0.3.1/index.json",
+      "sha256": "8043d640bd0534b27b43d108a7bde613ff27afcd0d0434d168f3761aa758e48a",
+      "size_bytes": "281"
+    },
+    {
+      "path": "schema/api/v1/contract.response.json",
+      "snapshot_path": "releases/datasets/0.3.1/contract.response.json",
+      "sha256": "8aeec6d6cd59a8016a059e31bfcfb6f38e46dbda1452d1f737324707b99f6a88",
+      "size_bytes": "492"
+    },
+    {
+      "path": "schema/api/v1/meta.response.json",
+      "snapshot_path": "releases/datasets/0.3.1/meta.response.json",
+      "sha256": "3b3ce571f3c319a2ce98435b967e667625a5e072ea281f3eaede417af42a6760",
+      "size_bytes": "1047"
+    },
+    {
+      "path": "schema/api/v1/taxon_priors.response.json",
+      "snapshot_path": "releases/datasets/0.3.1/taxon_priors.response.json",
+      "sha256": "21924cc7a214c242e1f728f3667f0d3c11d77df2eb4651784607db7e8ffd0062",
+      "size_bytes": "382"
+    },
+    {
+      "path": "schema/api/v1/simulate.request.json",
+      "snapshot_path": "releases/datasets/0.3.1/simulate.request.json",
+      "sha256": "ecdeeddfcfb156201539b3c8e62bb4085feb8be1042f77aaea917bba94a6d755",
+      "size_bytes": "1424"
+    },
+    {
+      "path": "schema/api/v1/simulate.response.json",
+      "snapshot_path": "releases/datasets/0.3.1/simulate.response.json",
+      "sha256": "b28f918d689b3a46f20302acb7c477afd0c8eec23613aab6e3891e949935a886",
+      "size_bytes": "510"
+    },
+    {
+      "path": "docs/assets/metazoa_phyla_snapshot.png",
+      "snapshot_path": "releases/datasets/0.3.1/metazoa_phyla_snapshot.png",
+      "sha256": "df011d1fd3a6273cc94b00ab9595e0c4d3b026f6c38f1e6572dead91d8a699cd",
+      "size_bytes": "216413"
+    },
+    {
+      "path": "docs/assets/metazoa_hierarchy_complex.png",
+      "snapshot_path": "releases/datasets/0.3.1/metazoa_hierarchy_complex.png",
+      "sha256": "d1cc602b286231904b1223a060057418bf78c8d8f2c5eaf18e29b5e6822730b7",
+      "size_bytes": "1038457"
+    }
+  ]
+}

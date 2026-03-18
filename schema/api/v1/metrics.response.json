@@ -1,0 +1,39 @@
+{
+  "properties": {
+    "total_requests": {
+      "title": "Total Requests",
+      "type": "integer"
+    },
+    "total_errors": {
+      "title": "Total Errors",
+      "type": "integer"
+    },
+    "avg_latency_ms": {
+      "title": "Avg Latency Ms",
+      "type": "number"
+    },
+    "path_counts": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "title": "Path Counts",
+      "type": "object"
+    },
+    "status_counts": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "title": "Status Counts",
+      "type": "object"
+    }
+  },
+  "required": [
+    "total_requests",
+    "total_errors",
+    "avg_latency_ms",
+    "path_counts",
+    "status_counts"
+  ],
+  "title": "MetricsResponse",
+  "type": "object"
+}

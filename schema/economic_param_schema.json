@@ -26,7 +26,7 @@
     "uncertainty_sd": {"type": "number", "minimum": 0.01, "maximum": 1.0},
     "provenance_type": {
       "type": "string",
-      "enum": ["observed", "imputed_taxonomy", "imputed_trait", "ai_estimated"]
+      "enum": ["observed", "imputed_taxonomy", "imputed_trait", "ai_estimated", "inherited_taxonomy"]
     },
     "source_model": {"type": "string"},
     "notes": {"type": "string"}

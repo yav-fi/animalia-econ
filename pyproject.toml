@@ -10,7 +10,15 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
   "PyYAML>=6.0",
+  "boto3>=1.34.0",
+  "matplotlib>=3.8.0",
+  "fastapi>=0.111.0",
+  "uvicorn>=0.30.0",
+  "mangum>=0.17.0",
+  "numpy>=1.26.0",
+  "arviz>=0.18.0",
+  "pymc>=5.18.0",
 ]
 
 [tool.setuptools]
-packages = ["sim"]
+packages = ["sim", "api"]

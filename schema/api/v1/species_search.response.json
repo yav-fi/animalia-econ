@@ -1,0 +1,66 @@
+{
+  "$defs": {
+    "SpeciesSearchHit": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "dataset": {
+          "title": "Dataset",
+          "type": "string"
+        },
+        "dataset_version": {
+          "title": "Dataset Version",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "species": {
+          "title": "Species",
+          "type": "string"
+        },
+        "common_name": {
+          "title": "Common Name",
+          "type": "string"
+        },
+        "bucket": {
+          "title": "Bucket",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "dataset",
+        "dataset_version",
+        "label",
+        "species",
+        "common_name",
+        "bucket"
+      ],
+      "title": "SpeciesSearchHit",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "count": {
+      "title": "Count",
+      "type": "integer"
+    },
+    "rows": {
+      "items": {
+        "$ref": "#/$defs/SpeciesSearchHit"
+      },
+      "title": "Rows",
+      "type": "array"
+    }
+  },
+  "required": [
+    "count",
+    "rows"
+  ],
+  "title": "SpeciesSearchResponse",
+  "type": "object"
+}

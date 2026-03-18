@@ -9,8 +9,8 @@ def _clip01(value: float) -> float:
 
 
 @dataclass
-class SpeciesPriors:
-    species: str
+class EntityPriors:
+    entity: str
     risk_preference: float
     temporal_discount_rate: float
     effort_price_elasticity: float
@@ -20,7 +20,11 @@ class SpeciesPriors:
     tokenization_capacity: float
 
 
-def public_goods_game(priors: SpeciesPriors, rounds: int = 10, players: int = 5, endowment: float = 10.0, multiplier: float = 1.8) -> dict[str, float]:
+# Backward-compatible alias for earlier code/tests.
+SpeciesPriors = EntityPriors
+
+
+def public_goods_game(priors: EntityPriors, rounds: int = 10, players: int = 5, endowment: float = 10.0, multiplier: float = 1.8) -> dict[str, float]:
     contributions = []
     for _ in range(rounds):
         noise = random.uniform(-0.1, 0.1)
@@ -35,7 +39,7 @@ def public_goods_game(priors: SpeciesPriors, rounds: int = 10, players: int = 5,
     }
 
 
-def ultimatum_game(priors: SpeciesPriors, rounds: int = 20, stake: float = 10.0) -> dict[str, float]:
+def ultimatum_game(priors: EntityPriors, rounds: int = 20, stake: float = 10.0) -> dict[str, float]:
     accepts = 0
     offers = []
     for _ in range(rounds):
@@ -53,7 +57,7 @@ def ultimatum_game(priors: SpeciesPriors, rounds: int = 20, stake: float = 10.0)
     }
 
 
-def trust_game(priors: SpeciesPriors, rounds: int = 20, endowment: float = 10.0, multiplier: float = 3.0) -> dict[str, float]:
+def trust_game(priors: EntityPriors, rounds: int = 20, endowment: float = 10.0, multiplier: float = 3.0) -> dict[str, float]:
     sent_values = []
     returned_values = []
     for _ in range(rounds):
@@ -76,10 +80,9 @@ def trust_game(priors: SpeciesPriors, rounds: int = 20, endowment: float = 10.0,
     }
 
 
-def risk_choice_task(priors: SpeciesPriors, trials: int = 100) -> dict[str, float]:
+def risk_choice_task(priors: EntityPriors, trials: int = 100) -> dict[str, float]:
     risky_choices = 0
     for _ in range(trials):
-        # Higher risk_preference and lower temporal_discount_rate increase risky choice rate.
         propensity = 0.25 + 0.35 * (priors.risk_preference / 2.0) + 0.2 * (1.0 - priors.temporal_discount_rate / 2.0)
         if random.random() < _clip01(propensity):
             risky_choices += 1

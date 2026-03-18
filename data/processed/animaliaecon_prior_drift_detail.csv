@@ -1,0 +1,813 @@
+entity_kind,entity,rank_or_class,param,from_version,to_version,from_value,to_value,abs_delta,pct_delta
+taxon,Actinopterygii,class,risk_preference,0.2.0,0.3.0,1.034776,1.10237,0.067594,0.065322
+taxon,Actinopterygii,class,temporal_discount_rate,0.2.0,0.3.0,0.642923,0.67093,0.028007,0.043562
+taxon,Actinopterygii,class,effort_price_elasticity,0.2.0,0.3.0,-1.161238,-1.003874,0.157364,0.135514
+taxon,Actinopterygii,class,cooperation_propensity,0.2.0,0.3.0,0.522537,0.547796,0.025259,0.048339
+taxon,Actinopterygii,class,inequity_sensitivity,0.2.0,0.3.0,0.580001,0.565761,0.01424,0.024552
+taxon,Actinopterygii,class,punishment_propensity,0.2.0,0.3.0,0.485401,0.477607,0.007794,0.016057
+taxon,Actinopterygii,class,tokenization_capacity,0.2.0,0.3.0,0.447036,0.487057,0.040021,0.089525
+taxon,Actinopterygii,class,risk_preference,0.3.0,0.3.1,1.10237,1.10237,0.0,0.0
+taxon,Actinopterygii,class,temporal_discount_rate,0.3.0,0.3.1,0.67093,0.67093,0.0,0.0
+taxon,Actinopterygii,class,effort_price_elasticity,0.3.0,0.3.1,-1.003874,-1.003874,0.0,0.0
+taxon,Actinopterygii,class,cooperation_propensity,0.3.0,0.3.1,0.547796,0.547796,0.0,0.0
+taxon,Actinopterygii,class,inequity_sensitivity,0.3.0,0.3.1,0.565761,0.565761,0.0,0.0
+taxon,Actinopterygii,class,punishment_propensity,0.3.0,0.3.1,0.477607,0.477607,0.0,0.0
+taxon,Actinopterygii,class,tokenization_capacity,0.3.0,0.3.1,0.487057,0.487057,0.0,0.0
+taxon,Aves,class,risk_preference,0.2.0,0.3.0,0.992457,0.991016,0.001441,0.001452
+taxon,Aves,class,temporal_discount_rate,0.2.0,0.3.0,0.489126,0.490801,0.001675,0.003424
+taxon,Aves,class,effort_price_elasticity,0.2.0,0.3.0,-0.897923,-0.853055,0.044868,0.049969
+taxon,Aves,class,cooperation_propensity,0.2.0,0.3.0,0.640686,0.71695,0.076264,0.119035
+taxon,Aves,class,inequity_sensitivity,0.2.0,0.3.0,0.655438,0.704445,0.049007,0.07477
+taxon,Aves,class,punishment_propensity,0.2.0,0.3.0,0.569683,0.598007,0.028324,0.049719
+taxon,Aves,class,tokenization_capacity,0.2.0,0.3.0,0.748825,0.789715,0.04089,0.054606
+taxon,Aves,class,risk_preference,0.3.0,0.3.1,0.991016,0.991016,0.0,0.0
+taxon,Aves,class,temporal_discount_rate,0.3.0,0.3.1,0.490801,0.490801,0.0,0.0
+taxon,Aves,class,effort_price_elasticity,0.3.0,0.3.1,-0.853055,-0.853055,0.0,0.0
+taxon,Aves,class,cooperation_propensity,0.3.0,0.3.1,0.71695,0.71695,0.0,0.0
+taxon,Aves,class,inequity_sensitivity,0.3.0,0.3.1,0.704445,0.704445,0.0,0.0
+taxon,Aves,class,punishment_propensity,0.3.0,0.3.1,0.598007,0.598007,0.0,0.0
+taxon,Aves,class,tokenization_capacity,0.3.0,0.3.1,0.789715,0.789715,0.0,0.0
+taxon,Cephalopoda,class,risk_preference,0.2.0,0.3.0,1.060762,1.126646,0.065884,0.06211
+taxon,Cephalopoda,class,temporal_discount_rate,0.2.0,0.3.0,0.595608,0.57648,0.019128,0.032115
+taxon,Cephalopoda,class,effort_price_elasticity,0.2.0,0.3.0,-1.32595,-1.32733,0.00138,0.001041
+taxon,Cephalopoda,class,cooperation_propensity,0.2.0,0.3.0,0.525376,0.452807,0.072569,0.138128
+taxon,Cephalopoda,class,inequity_sensitivity,0.2.0,0.3.0,0.596806,0.54395,0.052856,0.088565
+taxon,Cephalopoda,class,punishment_propensity,0.2.0,0.3.0,0.509885,0.430284,0.079601,0.156116
+taxon,Cephalopoda,class,tokenization_capacity,0.2.0,0.3.0,0.614549,0.63036,0.015811,0.025728
+taxon,Cephalopoda,class,risk_preference,0.3.0,0.3.1,1.126646,1.126646,0.0,0.0
+taxon,Cephalopoda,class,temporal_discount_rate,0.3.0,0.3.1,0.57648,0.57648,0.0,0.0
+taxon,Cephalopoda,class,effort_price_elasticity,0.3.0,0.3.1,-1.32733,-1.32733,0.0,0.0
+taxon,Cephalopoda,class,cooperation_propensity,0.3.0,0.3.1,0.452807,0.452807,0.0,0.0
+taxon,Cephalopoda,class,inequity_sensitivity,0.3.0,0.3.1,0.54395,0.54395,0.0,0.0
+taxon,Cephalopoda,class,punishment_propensity,0.3.0,0.3.1,0.430284,0.430284,0.0,0.0
+taxon,Cephalopoda,class,tokenization_capacity,0.3.0,0.3.1,0.63036,0.63036,0.0,0.0
+taxon,Insecta,class,risk_preference,0.2.0,0.3.0,1.030024,0.969755,0.060269,0.058512
+taxon,Insecta,class,temporal_discount_rate,0.2.0,0.3.0,0.817345,0.734822,0.082523,0.100965
+taxon,Insecta,class,effort_price_elasticity,0.2.0,0.3.0,-0.719588,-0.681634,0.037954,0.052744
+taxon,Insecta,class,cooperation_propensity,0.2.0,0.3.0,0.545266,0.726161,0.180895,0.331756
+taxon,Insecta,class,inequity_sensitivity,0.2.0,0.3.0,0.625579,0.665635,0.040056,0.06403
+taxon,Insecta,class,punishment_propensity,0.2.0,0.3.0,0.538767,0.587114,0.048347,0.089736
+taxon,Insecta,class,tokenization_capacity,0.2.0,0.3.0,0.553214,0.59356,0.040346,0.07293
+taxon,Insecta,class,risk_preference,0.3.0,0.3.1,0.969755,0.969755,0.0,0.0
+taxon,Insecta,class,temporal_discount_rate,0.3.0,0.3.1,0.734822,0.734822,0.0,0.0
+taxon,Insecta,class,effort_price_elasticity,0.3.0,0.3.1,-0.681634,-0.681634,0.0,0.0
+taxon,Insecta,class,cooperation_propensity,0.3.0,0.3.1,0.726161,0.726161,0.0,0.0
+taxon,Insecta,class,inequity_sensitivity,0.3.0,0.3.1,0.665635,0.665635,0.0,0.0
+taxon,Insecta,class,punishment_propensity,0.3.0,0.3.1,0.587114,0.587114,0.0,0.0
+taxon,Insecta,class,tokenization_capacity,0.3.0,0.3.1,0.59356,0.59356,0.0,0.0
+taxon,Malacostraca,class,risk_preference,0.2.0,0.3.0,1.046395,1.110949,0.064554,0.061692
+taxon,Malacostraca,class,temporal_discount_rate,0.2.0,0.3.0,0.707102,0.748908,0.041806,0.059123
+taxon,Malacostraca,class,effort_price_elasticity,0.2.0,0.3.0,-1.17521,-1.166723,0.008487,0.007222
+taxon,Malacostraca,class,cooperation_propensity,0.2.0,0.3.0,0.547229,0.488074,0.059155,0.108099
+taxon,Malacostraca,class,inequity_sensitivity,0.2.0,0.3.0,0.603683,0.553219,0.050464,0.083594
+taxon,Malacostraca,class,punishment_propensity,0.2.0,0.3.0,0.516588,0.445667,0.070921,0.137287
+taxon,Malacostraca,class,tokenization_capacity,0.2.0,0.3.0,0.540538,0.4877,0.052838,0.097751
+taxon,Malacostraca,class,risk_preference,0.3.0,0.3.1,1.110949,1.110949,0.0,0.0
+taxon,Malacostraca,class,temporal_discount_rate,0.3.0,0.3.1,0.748908,0.748908,0.0,0.0
+taxon,Malacostraca,class,effort_price_elasticity,0.3.0,0.3.1,-1.166723,-1.166723,0.0,0.0
+taxon,Malacostraca,class,cooperation_propensity,0.3.0,0.3.1,0.488074,0.488074,0.0,0.0
+taxon,Malacostraca,class,inequity_sensitivity,0.3.0,0.3.1,0.553219,0.553219,0.0,0.0
+taxon,Malacostraca,class,punishment_propensity,0.3.0,0.3.1,0.445667,0.445667,0.0,0.0
+taxon,Malacostraca,class,tokenization_capacity,0.3.0,0.3.1,0.4877,0.4877,0.0,0.0
+taxon,Mammalia,class,risk_preference,0.2.0,0.3.0,0.937992,0.949504,0.011512,0.012273
+taxon,Mammalia,class,temporal_discount_rate,0.2.0,0.3.0,0.506157,0.525517,0.01936,0.038249
+taxon,Mammalia,class,effort_price_elasticity,0.2.0,0.3.0,-0.877439,-0.850329,0.02711,0.030897
+taxon,Mammalia,class,cooperation_propensity,0.2.0,0.3.0,0.672459,0.739775,0.067316,0.100104
+taxon,Mammalia,class,inequity_sensitivity,0.2.0,0.3.0,0.668699,0.723379,0.05468,0.081771
+taxon,Mammalia,class,punishment_propensity,0.2.0,0.3.0,0.597615,0.613825,0.01621,0.027124
+taxon,Mammalia,class,tokenization_capacity,0.2.0,0.3.0,0.763217,0.802846,0.039629,0.051924
+taxon,Mammalia,class,risk_preference,0.3.0,0.3.1,0.949504,0.949504,0.0,0.0
+taxon,Mammalia,class,temporal_discount_rate,0.3.0,0.3.1,0.525517,0.525517,0.0,0.0
+taxon,Mammalia,class,effort_price_elasticity,0.3.0,0.3.1,-0.850329,-0.850329,0.0,0.0
+taxon,Mammalia,class,cooperation_propensity,0.3.0,0.3.1,0.739775,0.739775,0.0,0.0
+taxon,Mammalia,class,inequity_sensitivity,0.3.0,0.3.1,0.723379,0.723379,0.0,0.0
+taxon,Mammalia,class,punishment_propensity,0.3.0,0.3.1,0.613825,0.613825,0.0,0.0
+taxon,Mammalia,class,tokenization_capacity,0.3.0,0.3.1,0.802846,0.802846,0.0,0.0
+taxon,Apidae,family,risk_preference,0.2.0,0.3.0,1.010343,0.932434,0.077909,0.077111
+taxon,Apidae,family,temporal_discount_rate,0.2.0,0.3.0,0.77236,0.718064,0.054296,0.070299
+taxon,Apidae,family,effort_price_elasticity,0.2.0,0.3.0,-0.573908,-0.626031,0.052123,0.090821
+taxon,Apidae,family,cooperation_propensity,0.2.0,0.3.0,0.564396,0.774199,0.209803,0.37173
+taxon,Apidae,family,inequity_sensitivity,0.2.0,0.3.0,0.636432,0.695809,0.059377,0.093297
+taxon,Apidae,family,punishment_propensity,0.2.0,0.3.0,0.533667,0.618699,0.085032,0.159335
+taxon,Apidae,family,tokenization_capacity,0.2.0,0.3.0,0.563899,0.623595,0.059696,0.105863
+taxon,Apidae,family,risk_preference,0.3.0,0.3.1,0.932434,0.932434,0.0,0.0
+taxon,Apidae,family,temporal_discount_rate,0.3.0,0.3.1,0.718064,0.718064,0.0,0.0
+taxon,Apidae,family,effort_price_elasticity,0.3.0,0.3.1,-0.626031,-0.626031,0.0,0.0
+taxon,Apidae,family,cooperation_propensity,0.3.0,0.3.1,0.774199,0.774199,0.0,0.0
+taxon,Apidae,family,inequity_sensitivity,0.3.0,0.3.1,0.695809,0.695809,0.0,0.0
+taxon,Apidae,family,punishment_propensity,0.3.0,0.3.1,0.618699,0.618699,0.0,0.0
+taxon,Apidae,family,tokenization_capacity,0.3.0,0.3.1,0.623595,0.623595,0.0,0.0
+taxon,Cambaridae,family,risk_preference,0.2.0,0.3.0,1.046395,1.110949,0.064554,0.061692
+taxon,Cambaridae,family,temporal_discount_rate,0.2.0,0.3.0,0.707102,0.748908,0.041806,0.059123
+taxon,Cambaridae,family,effort_price_elasticity,0.2.0,0.3.0,-1.17521,-1.166723,0.008487,0.007222
+taxon,Cambaridae,family,cooperation_propensity,0.2.0,0.3.0,0.547229,0.488074,0.059155,0.108099
+taxon,Cambaridae,family,inequity_sensitivity,0.2.0,0.3.0,0.603683,0.553219,0.050464,0.083594
+taxon,Cambaridae,family,punishment_propensity,0.2.0,0.3.0,0.516588,0.445667,0.070921,0.137287
+taxon,Cambaridae,family,tokenization_capacity,0.2.0,0.3.0,0.540538,0.4877,0.052838,0.097751
+taxon,Cambaridae,family,risk_preference,0.3.0,0.3.1,1.110949,1.110949,0.0,0.0
+taxon,Cambaridae,family,temporal_discount_rate,0.3.0,0.3.1,0.748908,0.748908,0.0,0.0
+taxon,Cambaridae,family,effort_price_elasticity,0.3.0,0.3.1,-1.166723,-1.166723,0.0,0.0
+taxon,Cambaridae,family,cooperation_propensity,0.3.0,0.3.1,0.488074,0.488074,0.0,0.0
+taxon,Cambaridae,family,inequity_sensitivity,0.3.0,0.3.1,0.553219,0.553219,0.0,0.0
+taxon,Cambaridae,family,punishment_propensity,0.3.0,0.3.1,0.445667,0.445667,0.0,0.0
+taxon,Cambaridae,family,tokenization_capacity,0.3.0,0.3.1,0.4877,0.4877,0.0,0.0
+taxon,Cebidae,family,risk_preference,0.2.0,0.3.0,0.940398,0.941641,0.001243,0.001322
+taxon,Cebidae,family,temporal_discount_rate,0.2.0,0.3.0,0.487572,0.476824,0.010748,0.022044
+taxon,Cebidae,family,effort_price_elasticity,0.2.0,0.3.0,-0.75362,-0.764364,0.010744,0.014257
+taxon,Cebidae,family,cooperation_propensity,0.2.0,0.3.0,0.677919,0.766556,0.088637,0.130749
+taxon,Cebidae,family,inequity_sensitivity,0.2.0,0.3.0,0.672359,0.754966,0.082607,0.122861
+taxon,Cebidae,family,punishment_propensity,0.2.0,0.3.0,0.596037,0.631982,0.035945,0.060307
+taxon,Cebidae,family,tokenization_capacity,0.2.0,0.3.0,0.778485,0.812992,0.034507,0.044326
+taxon,Cebidae,family,risk_preference,0.3.0,0.3.1,0.941641,0.941641,0.0,0.0
+taxon,Cebidae,family,temporal_discount_rate,0.3.0,0.3.1,0.476824,0.476824,0.0,0.0
+taxon,Cebidae,family,effort_price_elasticity,0.3.0,0.3.1,-0.764364,-0.764364,0.0,0.0
+taxon,Cebidae,family,cooperation_propensity,0.3.0,0.3.1,0.766556,0.766556,0.0,0.0
+taxon,Cebidae,family,inequity_sensitivity,0.3.0,0.3.1,0.754966,0.754966,0.0,0.0
+taxon,Cebidae,family,punishment_propensity,0.3.0,0.3.1,0.631982,0.631982,0.0,0.0
+taxon,Cebidae,family,tokenization_capacity,0.3.0,0.3.1,0.812992,0.812992,0.0,0.0
+taxon,Cercopithecidae,family,risk_preference,0.2.0,0.3.0,0.930021,0.922205,0.007816,0.008404
+taxon,Cercopithecidae,family,temporal_discount_rate,0.2.0,0.3.0,0.476833,0.464781,0.012052,0.025275
+taxon,Cercopithecidae,family,effort_price_elasticity,0.2.0,0.3.0,-0.704852,-0.752091,0.047239,0.06702
+taxon,Cercopithecidae,family,cooperation_propensity,0.2.0,0.3.0,0.682398,0.781611,0.099213,0.145389
+taxon,Cercopithecidae,family,inequity_sensitivity,0.2.0,0.3.0,0.676487,0.765324,0.088837,0.131321
+taxon,Cercopithecidae,family,punishment_propensity,0.2.0,0.3.0,0.60113,0.641908,0.040778,0.067836
+taxon,Cercopithecidae,family,tokenization_capacity,0.2.0,0.3.0,0.780589,0.821992,0.041403,0.053041
+taxon,Cercopithecidae,family,risk_preference,0.3.0,0.3.1,0.922205,0.922205,0.0,0.0
+taxon,Cercopithecidae,family,temporal_discount_rate,0.3.0,0.3.1,0.464781,0.464781,0.0,0.0
+taxon,Cercopithecidae,family,effort_price_elasticity,0.3.0,0.3.1,-0.752091,-0.752091,0.0,0.0
+taxon,Cercopithecidae,family,cooperation_propensity,0.3.0,0.3.1,0.781611,0.781611,0.0,0.0
+taxon,Cercopithecidae,family,inequity_sensitivity,0.3.0,0.3.1,0.765324,0.765324,0.0,0.0
+taxon,Cercopithecidae,family,punishment_propensity,0.3.0,0.3.1,0.641908,0.641908,0.0,0.0
+taxon,Cercopithecidae,family,tokenization_capacity,0.3.0,0.3.1,0.821992,0.821992,0.0,0.0
+taxon,Columbidae,family,risk_preference,0.2.0,0.3.0,1.003243,1.008916,0.005673,0.005655
+taxon,Columbidae,family,temporal_discount_rate,0.2.0,0.3.0,0.492998,0.498023,0.005025,0.010193
+taxon,Columbidae,family,effort_price_elasticity,0.2.0,0.3.0,-1.124385,-0.99784,0.126545,0.112546
+taxon,Columbidae,family,cooperation_propensity,0.2.0,0.3.0,0.629857,0.66533,0.035473,0.056319
+taxon,Columbidae,family,inequity_sensitivity,0.2.0,0.3.0,0.640546,0.649604,0.009058,0.014141
+taxon,Columbidae,family,punishment_propensity,0.2.0,0.3.0,0.559394,0.563183,0.003789,0.006773
+taxon,Columbidae,family,tokenization_capacity,0.2.0,0.3.0,0.74419,0.767387,0.023197,0.031171
+taxon,Columbidae,family,risk_preference,0.3.0,0.3.1,1.008916,1.008916,0.0,0.0
+taxon,Columbidae,family,temporal_discount_rate,0.3.0,0.3.1,0.498023,0.498023,0.0,0.0
+taxon,Columbidae,family,effort_price_elasticity,0.3.0,0.3.1,-0.99784,-0.99784,0.0,0.0
+taxon,Columbidae,family,cooperation_propensity,0.3.0,0.3.1,0.66533,0.66533,0.0,0.0
+taxon,Columbidae,family,inequity_sensitivity,0.3.0,0.3.1,0.649604,0.649604,0.0,0.0
+taxon,Columbidae,family,punishment_propensity,0.3.0,0.3.1,0.563183,0.563183,0.0,0.0
+taxon,Columbidae,family,tokenization_capacity,0.3.0,0.3.1,0.767387,0.767387,0.0,0.0
+taxon,Corvidae,family,risk_preference,0.2.0,0.3.0,0.991944,0.989793,0.002151,0.002168
+taxon,Corvidae,family,temporal_discount_rate,0.2.0,0.3.0,0.489183,0.489155,2.8e-05,5.7e-05
+taxon,Corvidae,family,effort_price_elasticity,0.2.0,0.3.0,-0.761747,-0.793112,0.031365,0.041175
+taxon,Corvidae,family,cooperation_propensity,0.2.0,0.3.0,0.655058,0.733846,0.078788,0.120276
+taxon,Corvidae,family,inequity_sensitivity,0.2.0,0.3.0,0.665134,0.726054,0.06092,0.091591
+taxon,Corvidae,family,punishment_propensity,0.2.0,0.3.0,0.577364,0.609668,0.032304,0.055951
+taxon,Corvidae,family,tokenization_capacity,0.2.0,0.3.0,0.760292,0.79557,0.035278,0.046401
+taxon,Corvidae,family,risk_preference,0.3.0,0.3.1,0.989793,0.989793,0.0,0.0
+taxon,Corvidae,family,temporal_discount_rate,0.3.0,0.3.1,0.489155,0.489155,0.0,0.0
+taxon,Corvidae,family,effort_price_elasticity,0.3.0,0.3.1,-0.793112,-0.793112,0.0,0.0
+taxon,Corvidae,family,cooperation_propensity,0.3.0,0.3.1,0.733846,0.733846,0.0,0.0
+taxon,Corvidae,family,inequity_sensitivity,0.3.0,0.3.1,0.726054,0.726054,0.0,0.0
+taxon,Corvidae,family,punishment_propensity,0.3.0,0.3.1,0.609668,0.609668,0.0,0.0
+taxon,Corvidae,family,tokenization_capacity,0.3.0,0.3.1,0.79557,0.79557,0.0,0.0
+taxon,Cyprinidae,family,risk_preference,0.2.0,0.3.0,1.038224,1.113065,0.074841,0.072086
+taxon,Cyprinidae,family,temporal_discount_rate,0.2.0,0.3.0,0.652178,0.666336,0.014158,0.021709
+taxon,Cyprinidae,family,effort_price_elasticity,0.2.0,0.3.0,-1.148289,-1.025131,0.123158,0.107253
+taxon,Cyprinidae,family,cooperation_propensity,0.2.0,0.3.0,0.521048,0.534405,0.013357,0.025635
+taxon,Cyprinidae,family,inequity_sensitivity,0.2.0,0.3.0,0.577811,0.559101,0.01871,0.032381
+taxon,Cyprinidae,family,punishment_propensity,0.2.0,0.3.0,0.485194,0.469426,0.015768,0.032498
+taxon,Cyprinidae,family,tokenization_capacity,0.2.0,0.3.0,0.446166,0.4787,0.032534,0.072919
+taxon,Cyprinidae,family,risk_preference,0.3.0,0.3.1,1.113065,1.113065,0.0,0.0
+taxon,Cyprinidae,family,temporal_discount_rate,0.3.0,0.3.1,0.666336,0.666336,0.0,0.0
+taxon,Cyprinidae,family,effort_price_elasticity,0.3.0,0.3.1,-1.025131,-1.025131,0.0,0.0
+taxon,Cyprinidae,family,cooperation_propensity,0.3.0,0.3.1,0.534405,0.534405,0.0,0.0
+taxon,Cyprinidae,family,inequity_sensitivity,0.3.0,0.3.1,0.559101,0.559101,0.0,0.0
+taxon,Cyprinidae,family,punishment_propensity,0.3.0,0.3.1,0.469426,0.469426,0.0,0.0
+taxon,Cyprinidae,family,tokenization_capacity,0.3.0,0.3.1,0.4787,0.4787,0.0,0.0
+taxon,Drosophilidae,family,risk_preference,0.2.0,0.3.0,1.097283,1.118083,0.0208,0.018956
+taxon,Drosophilidae,family,temporal_discount_rate,0.2.0,0.3.0,0.838509,0.78794,0.050569,0.060308
+taxon,Drosophilidae,family,effort_price_elasticity,0.2.0,0.3.0,-1.083125,-0.910891,0.172234,0.159016
+taxon,Drosophilidae,family,cooperation_propensity,0.2.0,0.3.0,0.484635,0.535347,0.050712,0.10464
+taxon,Drosophilidae,family,inequity_sensitivity,0.2.0,0.3.0,0.583054,0.548307,0.034747,0.059595
+taxon,Drosophilidae,family,punishment_propensity,0.2.0,0.3.0,0.520536,0.462541,0.057995,0.111414
+taxon,Drosophilidae,family,tokenization_capacity,0.2.0,0.3.0,0.511981,0.474262,0.037719,0.073673
+taxon,Drosophilidae,family,risk_preference,0.3.0,0.3.1,1.118083,1.118083,0.0,0.0
+taxon,Drosophilidae,family,temporal_discount_rate,0.3.0,0.3.1,0.78794,0.78794,0.0,0.0
+taxon,Drosophilidae,family,effort_price_elasticity,0.3.0,0.3.1,-0.910891,-0.910891,0.0,0.0
+taxon,Drosophilidae,family,cooperation_propensity,0.3.0,0.3.1,0.535347,0.535347,0.0,0.0
+taxon,Drosophilidae,family,inequity_sensitivity,0.3.0,0.3.1,0.548307,0.548307,0.0,0.0
+taxon,Drosophilidae,family,punishment_propensity,0.3.0,0.3.1,0.462541,0.462541,0.0,0.0
+taxon,Drosophilidae,family,tokenization_capacity,0.3.0,0.3.1,0.474262,0.474262,0.0,0.0
+taxon,Formicidae,family,risk_preference,0.2.0,0.3.0,1.000616,0.905297,0.095319,0.09526
+taxon,Formicidae,family,temporal_discount_rate,0.2.0,0.3.0,0.850182,0.739598,0.110584,0.130071
+taxon,Formicidae,family,effort_price_elasticity,0.2.0,0.3.0,-0.444151,-0.564905,0.120754,0.271876
+taxon,Formicidae,family,cooperation_propensity,0.2.0,0.3.0,0.568876,0.80887,0.239994,0.421874
+taxon,Formicidae,family,inequity_sensitivity,0.2.0,0.3.0,0.644636,0.711271,0.066635,0.103368
+taxon,Formicidae,family,punishment_propensity,0.2.0,0.3.0,0.542104,0.639279,0.097175,0.179255
+taxon,Formicidae,family,tokenization_capacity,0.2.0,0.3.0,0.57271,0.645262,0.072552,0.126682
+taxon,Formicidae,family,risk_preference,0.3.0,0.3.1,0.905297,0.905297,0.0,0.0
+taxon,Formicidae,family,temporal_discount_rate,0.3.0,0.3.1,0.739598,0.739598,0.0,0.0
+taxon,Formicidae,family,effort_price_elasticity,0.3.0,0.3.1,-0.564905,-0.564905,0.0,0.0
+taxon,Formicidae,family,cooperation_propensity,0.3.0,0.3.1,0.80887,0.80887,0.0,0.0
+taxon,Formicidae,family,inequity_sensitivity,0.3.0,0.3.1,0.711271,0.711271,0.0,0.0
+taxon,Formicidae,family,punishment_propensity,0.3.0,0.3.1,0.639279,0.639279,0.0,0.0
+taxon,Formicidae,family,tokenization_capacity,0.3.0,0.3.1,0.645262,0.645262,0.0,0.0
+taxon,Gasterosteidae,family,risk_preference,0.2.0,0.3.0,1.026644,1.087573,0.060929,0.059348
+taxon,Gasterosteidae,family,temporal_discount_rate,0.2.0,0.3.0,0.656311,0.64087,0.015441,0.023527
+taxon,Gasterosteidae,family,effort_price_elasticity,0.2.0,0.3.0,-1.077973,-1.016298,0.061675,0.057214
+taxon,Gasterosteidae,family,cooperation_propensity,0.2.0,0.3.0,0.531669,0.553319,0.02165,0.040721
+taxon,Gasterosteidae,family,inequity_sensitivity,0.2.0,0.3.0,0.585242,0.574001,0.011241,0.019207
+taxon,Gasterosteidae,family,punishment_propensity,0.2.0,0.3.0,0.491726,0.482516,0.00921,0.01873
+taxon,Gasterosteidae,family,tokenization_capacity,0.2.0,0.3.0,0.453635,0.48995,0.036315,0.080053
+taxon,Gasterosteidae,family,risk_preference,0.3.0,0.3.1,1.087573,1.087573,0.0,0.0
+taxon,Gasterosteidae,family,temporal_discount_rate,0.3.0,0.3.1,0.64087,0.64087,0.0,0.0
+taxon,Gasterosteidae,family,effort_price_elasticity,0.3.0,0.3.1,-1.016298,-1.016298,0.0,0.0
+taxon,Gasterosteidae,family,cooperation_propensity,0.3.0,0.3.1,0.553319,0.553319,0.0,0.0
+taxon,Gasterosteidae,family,inequity_sensitivity,0.3.0,0.3.1,0.574001,0.574001,0.0,0.0
+taxon,Gasterosteidae,family,punishment_propensity,0.3.0,0.3.1,0.482516,0.482516,0.0,0.0
+taxon,Gasterosteidae,family,tokenization_capacity,0.3.0,0.3.1,0.48995,0.48995,0.0,0.0
+taxon,Hominidae,family,risk_preference,0.2.0,0.3.0,0.910928,0.898788,0.01214,0.013327
+taxon,Hominidae,family,temporal_discount_rate,0.2.0,0.3.0,0.452092,0.440715,0.011377,0.025165
+taxon,Hominidae,family,effort_price_elasticity,0.2.0,0.3.0,-0.620329,-0.72498,0.104651,0.168702
+taxon,Hominidae,family,cooperation_propensity,0.2.0,0.3.0,0.681234,0.812224,0.13099,0.192283
+taxon,Hominidae,family,inequity_sensitivity,0.2.0,0.3.0,0.682559,0.78708,0.104521,0.153131
+taxon,Hominidae,family,punishment_propensity,0.2.0,0.3.0,0.633614,0.662934,0.02932,0.046274
+taxon,Hominidae,family,tokenization_capacity,0.2.0,0.3.0,0.781957,0.841152,0.059195,0.075701
+taxon,Hominidae,family,risk_preference,0.3.0,0.3.1,0.898788,0.898788,0.0,0.0
+taxon,Hominidae,family,temporal_discount_rate,0.3.0,0.3.1,0.440715,0.440715,0.0,0.0
+taxon,Hominidae,family,effort_price_elasticity,0.3.0,0.3.1,-0.72498,-0.72498,0.0,0.0
+taxon,Hominidae,family,cooperation_propensity,0.3.0,0.3.1,0.812224,0.812224,0.0,0.0
+taxon,Hominidae,family,inequity_sensitivity,0.3.0,0.3.1,0.78708,0.78708,0.0,0.0
+taxon,Hominidae,family,punishment_propensity,0.3.0,0.3.1,0.662934,0.662934,0.0,0.0
+taxon,Hominidae,family,tokenization_capacity,0.3.0,0.3.1,0.841152,0.841152,0.0,0.0
+taxon,Muridae,family,risk_preference,0.2.0,0.3.0,0.978083,1.013353,0.03527,0.03606
+taxon,Muridae,family,temporal_discount_rate,0.2.0,0.3.0,0.628477,0.640149,0.011672,0.018572
+taxon,Muridae,family,effort_price_elasticity,0.2.0,0.3.0,-1.190446,-1.02344,0.167006,0.140289
+taxon,Muridae,family,cooperation_propensity,0.2.0,0.3.0,0.647995,0.645973,0.002022,0.00312
+taxon,Muridae,family,inequity_sensitivity,0.2.0,0.3.0,0.641765,0.638729,0.003036,0.004731
+taxon,Muridae,family,punishment_propensity,0.2.0,0.3.0,0.571233,0.550304,0.020929,0.036638
+taxon,Muridae,family,tokenization_capacity,0.2.0,0.3.0,0.750828,0.754427,0.003599,0.004793
+taxon,Muridae,family,risk_preference,0.3.0,0.3.1,1.013353,1.013353,0.0,0.0
+taxon,Muridae,family,temporal_discount_rate,0.3.0,0.3.1,0.640149,0.640149,0.0,0.0
+taxon,Muridae,family,effort_price_elasticity,0.3.0,0.3.1,-1.02344,-1.02344,0.0,0.0
+taxon,Muridae,family,cooperation_propensity,0.3.0,0.3.1,0.645973,0.645973,0.0,0.0
+taxon,Muridae,family,inequity_sensitivity,0.3.0,0.3.1,0.638729,0.638729,0.0,0.0
+taxon,Muridae,family,punishment_propensity,0.3.0,0.3.1,0.550304,0.550304,0.0,0.0
+taxon,Muridae,family,tokenization_capacity,0.3.0,0.3.1,0.754427,0.754427,0.0,0.0
+taxon,Octopodidae,family,risk_preference,0.2.0,0.3.0,1.062664,1.135511,0.072847,0.068551
+taxon,Octopodidae,family,temporal_discount_rate,0.2.0,0.3.0,0.602834,0.600627,0.002207,0.003661
+taxon,Octopodidae,family,effort_price_elasticity,0.2.0,0.3.0,-1.347891,-1.345703,0.002188,0.001623
+taxon,Octopodidae,family,cooperation_propensity,0.2.0,0.3.0,0.523238,0.442671,0.080567,0.153978
+taxon,Octopodidae,family,inequity_sensitivity,0.2.0,0.3.0,0.595466,0.539658,0.055808,0.093722
+taxon,Octopodidae,family,punishment_propensity,0.2.0,0.3.0,0.508326,0.424382,0.083944,0.165138
+taxon,Octopodidae,family,tokenization_capacity,0.2.0,0.3.0,0.613755,0.624075,0.01032,0.016815
+taxon,Octopodidae,family,risk_preference,0.3.0,0.3.1,1.135511,1.135511,0.0,0.0
+taxon,Octopodidae,family,temporal_discount_rate,0.3.0,0.3.1,0.600627,0.600627,0.0,0.0
+taxon,Octopodidae,family,effort_price_elasticity,0.3.0,0.3.1,-1.345703,-1.345703,0.0,0.0
+taxon,Octopodidae,family,cooperation_propensity,0.3.0,0.3.1,0.442671,0.442671,0.0,0.0
+taxon,Octopodidae,family,inequity_sensitivity,0.3.0,0.3.1,0.539658,0.539658,0.0,0.0
+taxon,Octopodidae,family,punishment_propensity,0.3.0,0.3.1,0.424382,0.424382,0.0,0.0
+taxon,Octopodidae,family,tokenization_capacity,0.3.0,0.3.1,0.624075,0.624075,0.0,0.0
+taxon,Poeciliidae,family,risk_preference,0.2.0,0.3.0,1.037633,1.096986,0.059353,0.0572
+taxon,Poeciliidae,family,temporal_discount_rate,0.2.0,0.3.0,0.697459,0.68662,0.010839,0.015541
+taxon,Poeciliidae,family,effort_price_elasticity,0.2.0,0.3.0,-1.031493,-0.977804,0.053689,0.05205
+taxon,Poeciliidae,family,cooperation_propensity,0.2.0,0.3.0,0.534552,0.559316,0.024764,0.046327
+taxon,Poeciliidae,family,inequity_sensitivity,0.2.0,0.3.0,0.578812,0.569473,0.009339,0.016135
+taxon,Poeciliidae,family,punishment_propensity,0.2.0,0.3.0,0.487544,0.484081,0.003463,0.007103
+taxon,Poeciliidae,family,tokenization_capacity,0.2.0,0.3.0,0.452658,0.49445,0.041792,0.092326
+taxon,Poeciliidae,family,risk_preference,0.3.0,0.3.1,1.096986,1.096986,0.0,0.0
+taxon,Poeciliidae,family,temporal_discount_rate,0.3.0,0.3.1,0.68662,0.68662,0.0,0.0
+taxon,Poeciliidae,family,effort_price_elasticity,0.3.0,0.3.1,-0.977804,-0.977804,0.0,0.0
+taxon,Poeciliidae,family,cooperation_propensity,0.3.0,0.3.1,0.559316,0.559316,0.0,0.0
+taxon,Poeciliidae,family,inequity_sensitivity,0.3.0,0.3.1,0.569473,0.569473,0.0,0.0
+taxon,Poeciliidae,family,punishment_propensity,0.3.0,0.3.1,0.484081,0.484081,0.0,0.0
+taxon,Poeciliidae,family,tokenization_capacity,0.3.0,0.3.1,0.49445,0.49445,0.0,0.0
+taxon,Sepiidae,family,risk_preference,0.2.0,0.3.0,1.058762,1.119642,0.06088,0.057501
+taxon,Sepiidae,family,temporal_discount_rate,0.2.0,0.3.0,0.588009,0.557401,0.030608,0.052054
+taxon,Sepiidae,family,effort_price_elasticity,0.2.0,0.3.0,-1.302879,-1.312813,0.009934,0.007625
+taxon,Sepiidae,family,cooperation_propensity,0.2.0,0.3.0,0.527624,0.460816,0.066808,0.12662
+taxon,Sepiidae,family,inequity_sensitivity,0.2.0,0.3.0,0.598216,0.547341,0.050875,0.085045
+taxon,Sepiidae,family,punishment_propensity,0.2.0,0.3.0,0.511524,0.434947,0.076577,0.149704
+taxon,Sepiidae,family,tokenization_capacity,0.2.0,0.3.0,0.615383,0.635325,0.019942,0.032406
+taxon,Sepiidae,family,risk_preference,0.3.0,0.3.1,1.119642,1.119642,0.0,0.0
+taxon,Sepiidae,family,temporal_discount_rate,0.3.0,0.3.1,0.557401,0.557401,0.0,0.0
+taxon,Sepiidae,family,effort_price_elasticity,0.3.0,0.3.1,-1.312813,-1.312813,0.0,0.0
+taxon,Sepiidae,family,cooperation_propensity,0.3.0,0.3.1,0.460816,0.460816,0.0,0.0
+taxon,Sepiidae,family,inequity_sensitivity,0.3.0,0.3.1,0.547341,0.547341,0.0,0.0
+taxon,Sepiidae,family,punishment_propensity,0.3.0,0.3.1,0.434947,0.434947,0.0,0.0
+taxon,Sepiidae,family,tokenization_capacity,0.3.0,0.3.1,0.635325,0.635325,0.0,0.0
+taxon,Strigopidae,family,risk_preference,0.2.0,0.3.0,0.987747,0.960049,0.027698,0.028042
+taxon,Strigopidae,family,temporal_discount_rate,0.2.0,0.3.0,0.488644,0.482557,0.006087,0.012457
+taxon,Strigopidae,family,effort_price_elasticity,0.2.0,0.3.0,-0.801579,-0.787006,0.014573,0.01818
+taxon,Strigopidae,family,cooperation_propensity,0.2.0,0.3.0,0.639949,0.75699,0.117041,0.182891
+taxon,Strigopidae,family,inequity_sensitivity,0.2.0,0.3.0,0.655529,0.733504,0.077975,0.11895
+taxon,Strigopidae,family,punishment_propensity,0.2.0,0.3.0,0.572127,0.624047,0.05192,0.090749
+taxon,Strigopidae,family,tokenization_capacity,0.2.0,0.3.0,0.743821,0.812387,0.068566,0.092181
+taxon,Strigopidae,family,risk_preference,0.3.0,0.3.1,0.960049,0.960049,0.0,0.0
+taxon,Strigopidae,family,temporal_discount_rate,0.3.0,0.3.1,0.482557,0.482557,0.0,0.0
+taxon,Strigopidae,family,effort_price_elasticity,0.3.0,0.3.1,-0.787006,-0.787006,0.0,0.0
+taxon,Strigopidae,family,cooperation_propensity,0.3.0,0.3.1,0.75699,0.75699,0.0,0.0
+taxon,Strigopidae,family,inequity_sensitivity,0.3.0,0.3.1,0.733504,0.733504,0.0,0.0
+taxon,Strigopidae,family,punishment_propensity,0.3.0,0.3.1,0.624047,0.624047,0.0,0.0
+taxon,Strigopidae,family,tokenization_capacity,0.3.0,0.3.1,0.812387,0.812387,0.0,0.0
+taxon,Columbiformes,order,risk_preference,0.2.0,0.3.0,1.003243,1.008916,0.005673,0.005655
+taxon,Columbiformes,order,temporal_discount_rate,0.2.0,0.3.0,0.492998,0.498023,0.005025,0.010193
+taxon,Columbiformes,order,effort_price_elasticity,0.2.0,0.3.0,-1.124385,-0.99784,0.126545,0.112546
+taxon,Columbiformes,order,cooperation_propensity,0.2.0,0.3.0,0.629857,0.66533,0.035473,0.056319
+taxon,Columbiformes,order,inequity_sensitivity,0.2.0,0.3.0,0.640546,0.649604,0.009058,0.014141
+taxon,Columbiformes,order,punishment_propensity,0.2.0,0.3.0,0.559394,0.563183,0.003789,0.006773
+taxon,Columbiformes,order,tokenization_capacity,0.2.0,0.3.0,0.74419,0.767387,0.023197,0.031171
+taxon,Columbiformes,order,risk_preference,0.3.0,0.3.1,1.008916,1.008916,0.0,0.0
+taxon,Columbiformes,order,temporal_discount_rate,0.3.0,0.3.1,0.498023,0.498023,0.0,0.0
+taxon,Columbiformes,order,effort_price_elasticity,0.3.0,0.3.1,-0.99784,-0.99784,0.0,0.0
+taxon,Columbiformes,order,cooperation_propensity,0.3.0,0.3.1,0.66533,0.66533,0.0,0.0
+taxon,Columbiformes,order,inequity_sensitivity,0.3.0,0.3.1,0.649604,0.649604,0.0,0.0
+taxon,Columbiformes,order,punishment_propensity,0.3.0,0.3.1,0.563183,0.563183,0.0,0.0
+taxon,Columbiformes,order,tokenization_capacity,0.3.0,0.3.1,0.767387,0.767387,0.0,0.0
+taxon,Cypriniformes,order,risk_preference,0.2.0,0.3.0,1.038224,1.113065,0.074841,0.072086
+taxon,Cypriniformes,order,temporal_discount_rate,0.2.0,0.3.0,0.652178,0.666336,0.014158,0.021709
+taxon,Cypriniformes,order,effort_price_elasticity,0.2.0,0.3.0,-1.148289,-1.025131,0.123158,0.107253
+taxon,Cypriniformes,order,cooperation_propensity,0.2.0,0.3.0,0.521048,0.534405,0.013357,0.025635
+taxon,Cypriniformes,order,inequity_sensitivity,0.2.0,0.3.0,0.577811,0.559101,0.01871,0.032381
+taxon,Cypriniformes,order,punishment_propensity,0.2.0,0.3.0,0.485194,0.469426,0.015768,0.032498
+taxon,Cypriniformes,order,tokenization_capacity,0.2.0,0.3.0,0.446166,0.4787,0.032534,0.072919
+taxon,Cypriniformes,order,risk_preference,0.3.0,0.3.1,1.113065,1.113065,0.0,0.0
+taxon,Cypriniformes,order,temporal_discount_rate,0.3.0,0.3.1,0.666336,0.666336,0.0,0.0
+taxon,Cypriniformes,order,effort_price_elasticity,0.3.0,0.3.1,-1.025131,-1.025131,0.0,0.0
+taxon,Cypriniformes,order,cooperation_propensity,0.3.0,0.3.1,0.534405,0.534405,0.0,0.0
+taxon,Cypriniformes,order,inequity_sensitivity,0.3.0,0.3.1,0.559101,0.559101,0.0,0.0
+taxon,Cypriniformes,order,punishment_propensity,0.3.0,0.3.1,0.469426,0.469426,0.0,0.0
+taxon,Cypriniformes,order,tokenization_capacity,0.3.0,0.3.1,0.4787,0.4787,0.0,0.0
+taxon,Cyprinodontiformes,order,risk_preference,0.2.0,0.3.0,1.037633,1.096986,0.059353,0.0572
+taxon,Cyprinodontiformes,order,temporal_discount_rate,0.2.0,0.3.0,0.697459,0.68662,0.010839,0.015541
+taxon,Cyprinodontiformes,order,effort_price_elasticity,0.2.0,0.3.0,-1.031493,-0.977804,0.053689,0.05205
+taxon,Cyprinodontiformes,order,cooperation_propensity,0.2.0,0.3.0,0.534552,0.559316,0.024764,0.046327
+taxon,Cyprinodontiformes,order,inequity_sensitivity,0.2.0,0.3.0,0.578812,0.569473,0.009339,0.016135
+taxon,Cyprinodontiformes,order,punishment_propensity,0.2.0,0.3.0,0.487544,0.484081,0.003463,0.007103
+taxon,Cyprinodontiformes,order,tokenization_capacity,0.2.0,0.3.0,0.452658,0.49445,0.041792,0.092326
+taxon,Cyprinodontiformes,order,risk_preference,0.3.0,0.3.1,1.096986,1.096986,0.0,0.0
+taxon,Cyprinodontiformes,order,temporal_discount_rate,0.3.0,0.3.1,0.68662,0.68662,0.0,0.0
+taxon,Cyprinodontiformes,order,effort_price_elasticity,0.3.0,0.3.1,-0.977804,-0.977804,0.0,0.0
+taxon,Cyprinodontiformes,order,cooperation_propensity,0.3.0,0.3.1,0.559316,0.559316,0.0,0.0
+taxon,Cyprinodontiformes,order,inequity_sensitivity,0.3.0,0.3.1,0.569473,0.569473,0.0,0.0
+taxon,Cyprinodontiformes,order,punishment_propensity,0.3.0,0.3.1,0.484081,0.484081,0.0,0.0
+taxon,Cyprinodontiformes,order,tokenization_capacity,0.3.0,0.3.1,0.49445,0.49445,0.0,0.0
+taxon,Decapoda,order,risk_preference,0.2.0,0.3.0,1.046395,1.110949,0.064554,0.061692
+taxon,Decapoda,order,temporal_discount_rate,0.2.0,0.3.0,0.707102,0.748908,0.041806,0.059123
+taxon,Decapoda,order,effort_price_elasticity,0.2.0,0.3.0,-1.17521,-1.166723,0.008487,0.007222
+taxon,Decapoda,order,cooperation_propensity,0.2.0,0.3.0,0.547229,0.488074,0.059155,0.108099
+taxon,Decapoda,order,inequity_sensitivity,0.2.0,0.3.0,0.603683,0.553219,0.050464,0.083594
+taxon,Decapoda,order,punishment_propensity,0.2.0,0.3.0,0.516588,0.445667,0.070921,0.137287
+taxon,Decapoda,order,tokenization_capacity,0.2.0,0.3.0,0.540538,0.4877,0.052838,0.097751
+taxon,Decapoda,order,risk_preference,0.3.0,0.3.1,1.110949,1.110949,0.0,0.0
+taxon,Decapoda,order,temporal_discount_rate,0.3.0,0.3.1,0.748908,0.748908,0.0,0.0
+taxon,Decapoda,order,effort_price_elasticity,0.3.0,0.3.1,-1.166723,-1.166723,0.0,0.0
+taxon,Decapoda,order,cooperation_propensity,0.3.0,0.3.1,0.488074,0.488074,0.0,0.0
+taxon,Decapoda,order,inequity_sensitivity,0.3.0,0.3.1,0.553219,0.553219,0.0,0.0
+taxon,Decapoda,order,punishment_propensity,0.3.0,0.3.1,0.445667,0.445667,0.0,0.0
+taxon,Decapoda,order,tokenization_capacity,0.3.0,0.3.1,0.4877,0.4877,0.0,0.0
+taxon,Diptera,order,risk_preference,0.2.0,0.3.0,1.097283,1.118083,0.0208,0.018956
+taxon,Diptera,order,temporal_discount_rate,0.2.0,0.3.0,0.838509,0.78794,0.050569,0.060308
+taxon,Diptera,order,effort_price_elasticity,0.2.0,0.3.0,-1.083125,-0.910891,0.172234,0.159016
+taxon,Diptera,order,cooperation_propensity,0.2.0,0.3.0,0.484635,0.535347,0.050712,0.10464
+taxon,Diptera,order,inequity_sensitivity,0.2.0,0.3.0,0.583054,0.548307,0.034747,0.059595
+taxon,Diptera,order,punishment_propensity,0.2.0,0.3.0,0.520536,0.462541,0.057995,0.111414
+taxon,Diptera,order,tokenization_capacity,0.2.0,0.3.0,0.511981,0.474262,0.037719,0.073673
+taxon,Diptera,order,risk_preference,0.3.0,0.3.1,1.118083,1.118083,0.0,0.0
+taxon,Diptera,order,temporal_discount_rate,0.3.0,0.3.1,0.78794,0.78794,0.0,0.0
+taxon,Diptera,order,effort_price_elasticity,0.3.0,0.3.1,-0.910891,-0.910891,0.0,0.0
+taxon,Diptera,order,cooperation_propensity,0.3.0,0.3.1,0.535347,0.535347,0.0,0.0
+taxon,Diptera,order,inequity_sensitivity,0.3.0,0.3.1,0.548307,0.548307,0.0,0.0
+taxon,Diptera,order,punishment_propensity,0.3.0,0.3.1,0.462541,0.462541,0.0,0.0
+taxon,Diptera,order,tokenization_capacity,0.3.0,0.3.1,0.474262,0.474262,0.0,0.0
+taxon,Gasterosteiformes,order,risk_preference,0.2.0,0.3.0,1.026644,1.087573,0.060929,0.059348
+taxon,Gasterosteiformes,order,temporal_discount_rate,0.2.0,0.3.0,0.656311,0.64087,0.015441,0.023527
+taxon,Gasterosteiformes,order,effort_price_elasticity,0.2.0,0.3.0,-1.077973,-1.016298,0.061675,0.057214
+taxon,Gasterosteiformes,order,cooperation_propensity,0.2.0,0.3.0,0.531669,0.553319,0.02165,0.040721
+taxon,Gasterosteiformes,order,inequity_sensitivity,0.2.0,0.3.0,0.585242,0.574001,0.011241,0.019207
+taxon,Gasterosteiformes,order,punishment_propensity,0.2.0,0.3.0,0.491726,0.482516,0.00921,0.01873
+taxon,Gasterosteiformes,order,tokenization_capacity,0.2.0,0.3.0,0.453635,0.48995,0.036315,0.080053
+taxon,Gasterosteiformes,order,risk_preference,0.3.0,0.3.1,1.087573,1.087573,0.0,0.0
+taxon,Gasterosteiformes,order,temporal_discount_rate,0.3.0,0.3.1,0.64087,0.64087,0.0,0.0
+taxon,Gasterosteiformes,order,effort_price_elasticity,0.3.0,0.3.1,-1.016298,-1.016298,0.0,0.0
+taxon,Gasterosteiformes,order,cooperation_propensity,0.3.0,0.3.1,0.553319,0.553319,0.0,0.0
+taxon,Gasterosteiformes,order,inequity_sensitivity,0.3.0,0.3.1,0.574001,0.574001,0.0,0.0
+taxon,Gasterosteiformes,order,punishment_propensity,0.3.0,0.3.1,0.482516,0.482516,0.0,0.0
+taxon,Gasterosteiformes,order,tokenization_capacity,0.3.0,0.3.1,0.48995,0.48995,0.0,0.0
+taxon,Hymenoptera,order,risk_preference,0.2.0,0.3.0,1.004315,0.929488,0.074827,0.074506
+taxon,Hymenoptera,order,temporal_discount_rate,0.2.0,0.3.0,0.820591,0.720402,0.100189,0.122094
+taxon,Hymenoptera,order,effort_price_elasticity,0.2.0,0.3.0,-0.493491,-0.619396,0.125905,0.255131
+taxon,Hymenoptera,order,cooperation_propensity,0.2.0,0.3.0,0.567172,0.777962,0.21079,0.371651
+taxon,Hymenoptera,order,inequity_sensitivity,0.2.0,0.3.0,0.641517,0.697487,0.05597,0.087246
+taxon,Hymenoptera,order,punishment_propensity,0.2.0,0.3.0,0.538896,0.620933,0.082037,0.152232
+taxon,Hymenoptera,order,tokenization_capacity,0.2.0,0.3.0,0.56936,0.625947,0.056587,0.099387
+taxon,Hymenoptera,order,risk_preference,0.3.0,0.3.1,0.929488,0.929488,0.0,0.0
+taxon,Hymenoptera,order,temporal_discount_rate,0.3.0,0.3.1,0.720402,0.720402,0.0,0.0
+taxon,Hymenoptera,order,effort_price_elasticity,0.3.0,0.3.1,-0.619396,-0.619396,0.0,0.0
+taxon,Hymenoptera,order,cooperation_propensity,0.3.0,0.3.1,0.777962,0.777962,0.0,0.0
+taxon,Hymenoptera,order,inequity_sensitivity,0.3.0,0.3.1,0.697487,0.697487,0.0,0.0
+taxon,Hymenoptera,order,punishment_propensity,0.3.0,0.3.1,0.620933,0.620933,0.0,0.0
+taxon,Hymenoptera,order,tokenization_capacity,0.3.0,0.3.1,0.625947,0.625947,0.0,0.0
+taxon,Octopoda,order,risk_preference,0.2.0,0.3.0,1.062664,1.135511,0.072847,0.068551
+taxon,Octopoda,order,temporal_discount_rate,0.2.0,0.3.0,0.602834,0.600627,0.002207,0.003661
+taxon,Octopoda,order,effort_price_elasticity,0.2.0,0.3.0,-1.347891,-1.345703,0.002188,0.001623
+taxon,Octopoda,order,cooperation_propensity,0.2.0,0.3.0,0.523238,0.442671,0.080567,0.153978
+taxon,Octopoda,order,inequity_sensitivity,0.2.0,0.3.0,0.595466,0.539658,0.055808,0.093722
+taxon,Octopoda,order,punishment_propensity,0.2.0,0.3.0,0.508326,0.424382,0.083944,0.165138
+taxon,Octopoda,order,tokenization_capacity,0.2.0,0.3.0,0.613755,0.624075,0.01032,0.016815
+taxon,Octopoda,order,risk_preference,0.3.0,0.3.1,1.135511,1.135511,0.0,0.0
+taxon,Octopoda,order,temporal_discount_rate,0.3.0,0.3.1,0.600627,0.600627,0.0,0.0
+taxon,Octopoda,order,effort_price_elasticity,0.3.0,0.3.1,-1.345703,-1.345703,0.0,0.0
+taxon,Octopoda,order,cooperation_propensity,0.3.0,0.3.1,0.442671,0.442671,0.0,0.0
+taxon,Octopoda,order,inequity_sensitivity,0.3.0,0.3.1,0.539658,0.539658,0.0,0.0
+taxon,Octopoda,order,punishment_propensity,0.3.0,0.3.1,0.424382,0.424382,0.0,0.0
+taxon,Octopoda,order,tokenization_capacity,0.3.0,0.3.1,0.624075,0.624075,0.0,0.0
+taxon,Passeriformes,order,risk_preference,0.2.0,0.3.0,0.991944,0.989793,0.002151,0.002168
+taxon,Passeriformes,order,temporal_discount_rate,0.2.0,0.3.0,0.489183,0.489155,2.8e-05,5.7e-05
+taxon,Passeriformes,order,effort_price_elasticity,0.2.0,0.3.0,-0.761747,-0.793112,0.031365,0.041175
+taxon,Passeriformes,order,cooperation_propensity,0.2.0,0.3.0,0.655058,0.733846,0.078788,0.120276
+taxon,Passeriformes,order,inequity_sensitivity,0.2.0,0.3.0,0.665134,0.726054,0.06092,0.091591
+taxon,Passeriformes,order,punishment_propensity,0.2.0,0.3.0,0.577364,0.609668,0.032304,0.055951
+taxon,Passeriformes,order,tokenization_capacity,0.2.0,0.3.0,0.760292,0.79557,0.035278,0.046401
+taxon,Passeriformes,order,risk_preference,0.3.0,0.3.1,0.989793,0.989793,0.0,0.0
+taxon,Passeriformes,order,temporal_discount_rate,0.3.0,0.3.1,0.489155,0.489155,0.0,0.0
+taxon,Passeriformes,order,effort_price_elasticity,0.3.0,0.3.1,-0.793112,-0.793112,0.0,0.0
+taxon,Passeriformes,order,cooperation_propensity,0.3.0,0.3.1,0.733846,0.733846,0.0,0.0
+taxon,Passeriformes,order,inequity_sensitivity,0.3.0,0.3.1,0.726054,0.726054,0.0,0.0
+taxon,Passeriformes,order,punishment_propensity,0.3.0,0.3.1,0.609668,0.609668,0.0,0.0
+taxon,Passeriformes,order,tokenization_capacity,0.3.0,0.3.1,0.79557,0.79557,0.0,0.0
+taxon,Primates,order,risk_preference,0.2.0,0.3.0,0.922075,0.906052,0.016023,0.017377
+taxon,Primates,order,temporal_discount_rate,0.2.0,0.3.0,0.465947,0.447503,0.018444,0.039584
+taxon,Primates,order,effort_price_elasticity,0.2.0,0.3.0,-0.670292,-0.732516,0.062224,0.092831
+taxon,Primates,order,cooperation_propensity,0.2.0,0.3.0,0.6808,0.803612,0.122812,0.180394
+taxon,Primates,order,inequity_sensitivity,0.2.0,0.3.0,0.678834,0.780989,0.102155,0.150486
+taxon,Primates,order,punishment_propensity,0.2.0,0.3.0,0.617384,0.657054,0.03967,0.064255
+taxon,Primates,order,tokenization_capacity,0.2.0,0.3.0,0.780862,0.835798,0.054936,0.070353
+taxon,Primates,order,risk_preference,0.3.0,0.3.1,0.906052,0.906052,0.0,0.0
+taxon,Primates,order,temporal_discount_rate,0.3.0,0.3.1,0.447503,0.447503,0.0,0.0
+taxon,Primates,order,effort_price_elasticity,0.3.0,0.3.1,-0.732516,-0.732516,0.0,0.0
+taxon,Primates,order,cooperation_propensity,0.3.0,0.3.1,0.803612,0.803612,0.0,0.0
+taxon,Primates,order,inequity_sensitivity,0.3.0,0.3.1,0.780989,0.780989,0.0,0.0
+taxon,Primates,order,punishment_propensity,0.3.0,0.3.1,0.657054,0.657054,0.0,0.0
+taxon,Primates,order,tokenization_capacity,0.3.0,0.3.1,0.835798,0.835798,0.0,0.0
+taxon,Psittaciformes,order,risk_preference,0.2.0,0.3.0,0.978922,0.960049,0.018873,0.019279
+taxon,Psittaciformes,order,temporal_discount_rate,0.2.0,0.3.0,0.489985,0.482557,0.007428,0.01516
+taxon,Psittaciformes,order,effort_price_elasticity,0.2.0,0.3.0,-0.748272,-0.787006,0.038734,0.051765
+taxon,Psittaciformes,order,cooperation_propensity,0.2.0,0.3.0,0.647027,0.75699,0.109963,0.169951
+taxon,Psittaciformes,order,inequity_sensitivity,0.2.0,0.3.0,0.660551,0.733504,0.072953,0.110443
+taxon,Psittaciformes,order,punishment_propensity,0.2.0,0.3.0,0.575948,0.624047,0.048099,0.083513
+taxon,Psittaciformes,order,tokenization_capacity,0.2.0,0.3.0,0.746358,0.812387,0.066029,0.088468
+taxon,Psittaciformes,order,risk_preference,0.3.0,0.3.1,0.960049,0.960049,0.0,0.0
+taxon,Psittaciformes,order,temporal_discount_rate,0.3.0,0.3.1,0.482557,0.482557,0.0,0.0
+taxon,Psittaciformes,order,effort_price_elasticity,0.3.0,0.3.1,-0.787006,-0.787006,0.0,0.0
+taxon,Psittaciformes,order,cooperation_propensity,0.3.0,0.3.1,0.75699,0.75699,0.0,0.0
+taxon,Psittaciformes,order,inequity_sensitivity,0.3.0,0.3.1,0.733504,0.733504,0.0,0.0
+taxon,Psittaciformes,order,punishment_propensity,0.3.0,0.3.1,0.624047,0.624047,0.0,0.0
+taxon,Psittaciformes,order,tokenization_capacity,0.3.0,0.3.1,0.812387,0.812387,0.0,0.0
+taxon,Rodentia,order,risk_preference,0.2.0,0.3.0,0.978083,1.013353,0.03527,0.03606
+taxon,Rodentia,order,temporal_discount_rate,0.2.0,0.3.0,0.628477,0.640149,0.011672,0.018572
+taxon,Rodentia,order,effort_price_elasticity,0.2.0,0.3.0,-1.190446,-1.02344,0.167006,0.140289
+taxon,Rodentia,order,cooperation_propensity,0.2.0,0.3.0,0.647995,0.645973,0.002022,0.00312
+taxon,Rodentia,order,inequity_sensitivity,0.2.0,0.3.0,0.641765,0.638729,0.003036,0.004731
+taxon,Rodentia,order,punishment_propensity,0.2.0,0.3.0,0.571233,0.550304,0.020929,0.036638
+taxon,Rodentia,order,tokenization_capacity,0.2.0,0.3.0,0.750828,0.754427,0.003599,0.004793
+taxon,Rodentia,order,risk_preference,0.3.0,0.3.1,1.013353,1.013353,0.0,0.0
+taxon,Rodentia,order,temporal_discount_rate,0.3.0,0.3.1,0.640149,0.640149,0.0,0.0
+taxon,Rodentia,order,effort_price_elasticity,0.3.0,0.3.1,-1.02344,-1.02344,0.0,0.0
+taxon,Rodentia,order,cooperation_propensity,0.3.0,0.3.1,0.645973,0.645973,0.0,0.0
+taxon,Rodentia,order,inequity_sensitivity,0.3.0,0.3.1,0.638729,0.638729,0.0,0.0
+taxon,Rodentia,order,punishment_propensity,0.3.0,0.3.1,0.550304,0.550304,0.0,0.0
+taxon,Rodentia,order,tokenization_capacity,0.3.0,0.3.1,0.754427,0.754427,0.0,0.0
+taxon,Sepiida,order,risk_preference,0.2.0,0.3.0,1.058762,1.119642,0.06088,0.057501
+taxon,Sepiida,order,temporal_discount_rate,0.2.0,0.3.0,0.588009,0.557401,0.030608,0.052054
+taxon,Sepiida,order,effort_price_elasticity,0.2.0,0.3.0,-1.302879,-1.312813,0.009934,0.007625
+taxon,Sepiida,order,cooperation_propensity,0.2.0,0.3.0,0.527624,0.460816,0.066808,0.12662
+taxon,Sepiida,order,inequity_sensitivity,0.2.0,0.3.0,0.598216,0.547341,0.050875,0.085045
+taxon,Sepiida,order,punishment_propensity,0.2.0,0.3.0,0.511524,0.434947,0.076577,0.149704
+taxon,Sepiida,order,tokenization_capacity,0.2.0,0.3.0,0.615383,0.635325,0.019942,0.032406
+taxon,Sepiida,order,risk_preference,0.3.0,0.3.1,1.119642,1.119642,0.0,0.0
+taxon,Sepiida,order,temporal_discount_rate,0.3.0,0.3.1,0.557401,0.557401,0.0,0.0
+taxon,Sepiida,order,effort_price_elasticity,0.3.0,0.3.1,-1.312813,-1.312813,0.0,0.0
+taxon,Sepiida,order,cooperation_propensity,0.3.0,0.3.1,0.460816,0.460816,0.0,0.0
+taxon,Sepiida,order,inequity_sensitivity,0.3.0,0.3.1,0.547341,0.547341,0.0,0.0
+taxon,Sepiida,order,punishment_propensity,0.3.0,0.3.1,0.434947,0.434947,0.0,0.0
+taxon,Sepiida,order,tokenization_capacity,0.3.0,0.3.1,0.635325,0.635325,0.0,0.0
+taxon,Arthropoda,phylum,risk_preference,0.2.0,0.3.0,1.031061,0.982833,0.048228,0.046775
+taxon,Arthropoda,phylum,temporal_discount_rate,0.2.0,0.3.0,0.810364,0.736127,0.074237,0.091609
+taxon,Arthropoda,phylum,effort_price_elasticity,0.2.0,0.3.0,-0.748437,-0.726563,0.021874,0.029226
+taxon,Arthropoda,phylum,cooperation_propensity,0.2.0,0.3.0,0.545391,0.704109,0.158718,0.291017
+taxon,Arthropoda,phylum,inequity_sensitivity,0.2.0,0.3.0,0.624192,0.655223,0.031031,0.049714
+taxon,Arthropoda,phylum,punishment_propensity,0.2.0,0.3.0,0.537363,0.574014,0.036651,0.068205
+taxon,Arthropoda,phylum,tokenization_capacity,0.2.0,0.3.0,0.552411,0.583755,0.031344,0.05674
+taxon,Arthropoda,phylum,risk_preference,0.3.0,0.3.1,0.982833,0.982833,0.0,0.0
+taxon,Arthropoda,phylum,temporal_discount_rate,0.3.0,0.3.1,0.736127,0.736127,0.0,0.0
+taxon,Arthropoda,phylum,effort_price_elasticity,0.3.0,0.3.1,-0.726563,-0.726563,0.0,0.0
+taxon,Arthropoda,phylum,cooperation_propensity,0.3.0,0.3.1,0.704109,0.704109,0.0,0.0
+taxon,Arthropoda,phylum,inequity_sensitivity,0.3.0,0.3.1,0.655223,0.655223,0.0,0.0
+taxon,Arthropoda,phylum,punishment_propensity,0.3.0,0.3.1,0.574014,0.574014,0.0,0.0
+taxon,Arthropoda,phylum,tokenization_capacity,0.3.0,0.3.1,0.583755,0.583755,0.0,0.0
+taxon,Chordata,phylum,risk_preference,0.2.0,0.3.0,0.984559,0.985455,0.000896,0.00091
+taxon,Chordata,phylum,temporal_discount_rate,0.2.0,0.3.0,0.542418,0.544138,0.00172,0.003171
+taxon,Chordata,phylum,effort_price_elasticity,0.2.0,0.3.0,-0.970229,-0.878259,0.09197,0.094792
+taxon,Chordata,phylum,cooperation_propensity,0.2.0,0.3.0,0.616856,0.700778,0.083922,0.136048
+taxon,Chordata,phylum,inequity_sensitivity,0.2.0,0.3.0,0.637543,0.691321,0.053778,0.084352
+taxon,Chordata,phylum,punishment_propensity,0.2.0,0.3.0,0.554693,0.586234,0.031541,0.056862
+taxon,Chordata,phylum,tokenization_capacity,0.2.0,0.3.0,0.662489,0.743824,0.081335,0.122772
+taxon,Chordata,phylum,risk_preference,0.3.0,0.3.1,0.985455,0.985455,0.0,0.0
+taxon,Chordata,phylum,temporal_discount_rate,0.3.0,0.3.1,0.544138,0.544138,0.0,0.0
+taxon,Chordata,phylum,effort_price_elasticity,0.3.0,0.3.1,-0.878259,-0.878259,0.0,0.0
+taxon,Chordata,phylum,cooperation_propensity,0.3.0,0.3.1,0.700778,0.700778,0.0,0.0
+taxon,Chordata,phylum,inequity_sensitivity,0.3.0,0.3.1,0.691321,0.691321,0.0,0.0
+taxon,Chordata,phylum,punishment_propensity,0.3.0,0.3.1,0.586234,0.586234,0.0,0.0
+taxon,Chordata,phylum,tokenization_capacity,0.3.0,0.3.1,0.743824,0.743824,0.0,0.0
+taxon,Mollusca,phylum,risk_preference,0.2.0,0.3.0,1.060762,1.126646,0.065884,0.06211
+taxon,Mollusca,phylum,temporal_discount_rate,0.2.0,0.3.0,0.595608,0.57648,0.019128,0.032115
+taxon,Mollusca,phylum,effort_price_elasticity,0.2.0,0.3.0,-1.32595,-1.32733,0.00138,0.001041
+taxon,Mollusca,phylum,cooperation_propensity,0.2.0,0.3.0,0.525376,0.452807,0.072569,0.138128
+taxon,Mollusca,phylum,inequity_sensitivity,0.2.0,0.3.0,0.596806,0.54395,0.052856,0.088565
+taxon,Mollusca,phylum,punishment_propensity,0.2.0,0.3.0,0.509885,0.430284,0.079601,0.156116
+taxon,Mollusca,phylum,tokenization_capacity,0.2.0,0.3.0,0.614549,0.63036,0.015811,0.025728
+taxon,Mollusca,phylum,risk_preference,0.3.0,0.3.1,1.126646,1.126646,0.0,0.0
+taxon,Mollusca,phylum,temporal_discount_rate,0.3.0,0.3.1,0.57648,0.57648,0.0,0.0
+taxon,Mollusca,phylum,effort_price_elasticity,0.3.0,0.3.1,-1.32733,-1.32733,0.0,0.0
+taxon,Mollusca,phylum,cooperation_propensity,0.3.0,0.3.1,0.452807,0.452807,0.0,0.0
+taxon,Mollusca,phylum,inequity_sensitivity,0.3.0,0.3.1,0.54395,0.54395,0.0,0.0
+taxon,Mollusca,phylum,punishment_propensity,0.3.0,0.3.1,0.430284,0.430284,0.0,0.0
+taxon,Mollusca,phylum,tokenization_capacity,0.3.0,0.3.1,0.63036,0.63036,0.0,0.0
+species,Apis mellifera,Insecta,risk_preference,0.1.0,0.3.0,1.006816,0.929561,0.077255,0.076732
+species,Apis mellifera,Insecta,temporal_discount_rate,0.1.0,0.3.0,0.771114,0.718655,0.052459,0.06803
+species,Apis mellifera,Insecta,effort_price_elasticity,0.1.0,0.3.0,-0.56935,-0.62062,0.05127,0.09005
+species,Apis mellifera,Insecta,cooperation_propensity,0.1.0,0.3.0,0.56648,0.777867,0.211387,0.373159
+species,Apis mellifera,Insecta,inequity_sensitivity,0.1.0,0.3.0,0.638577,0.697761,0.059184,0.092681
+species,Apis mellifera,Insecta,punishment_propensity,0.1.0,0.3.0,0.53599,0.620987,0.084997,0.158579
+species,Apis mellifera,Insecta,tokenization_capacity,0.1.0,0.3.0,0.565976,0.625887,0.059911,0.105854
+species,Apis mellifera,Insecta,risk_preference,0.3.0,0.3.1,0.929561,0.929561,0.0,0.0
+species,Apis mellifera,Insecta,temporal_discount_rate,0.3.0,0.3.1,0.718655,0.718655,0.0,0.0
+species,Apis mellifera,Insecta,effort_price_elasticity,0.3.0,0.3.1,-0.62062,-0.62062,0.0,0.0
+species,Apis mellifera,Insecta,cooperation_propensity,0.3.0,0.3.1,0.777867,0.777867,0.0,0.0
+species,Apis mellifera,Insecta,inequity_sensitivity,0.3.0,0.3.1,0.697761,0.697761,0.0,0.0
+species,Apis mellifera,Insecta,punishment_propensity,0.3.0,0.3.1,0.620987,0.620987,0.0,0.0
+species,Apis mellifera,Insecta,tokenization_capacity,0.3.0,0.3.1,0.625887,0.625887,0.0,0.0
+species,Atta cephalotes,Insecta,risk_preference,0.1.0,0.3.0,1.004461,0.905297,0.099164,0.098724
+species,Atta cephalotes,Insecta,temporal_discount_rate,0.1.0,0.3.0,0.845801,0.739598,0.106203,0.125565
+species,Atta cephalotes,Insecta,effort_price_elasticity,0.1.0,0.3.0,-0.44798,-0.564905,0.116925,0.261005
+species,Atta cephalotes,Insecta,cooperation_propensity,0.1.0,0.3.0,0.564941,0.80887,0.243929,0.431778
+species,Atta cephalotes,Insecta,inequity_sensitivity,0.1.0,0.3.0,0.641779,0.711271,0.069492,0.10828
+species,Atta cephalotes,Insecta,punishment_propensity,0.1.0,0.3.0,0.539674,0.639279,0.099605,0.184565
+species,Atta cephalotes,Insecta,tokenization_capacity,0.1.0,0.3.0,0.570302,0.645262,0.07496,0.131439
+species,Atta cephalotes,Insecta,risk_preference,0.3.0,0.3.1,0.905297,0.905297,0.0,0.0
+species,Atta cephalotes,Insecta,temporal_discount_rate,0.3.0,0.3.1,0.739598,0.739598,0.0,0.0
+species,Atta cephalotes,Insecta,effort_price_elasticity,0.3.0,0.3.1,-0.564905,-0.564905,0.0,0.0
+species,Atta cephalotes,Insecta,cooperation_propensity,0.3.0,0.3.1,0.80887,0.80887,0.0,0.0
+species,Atta cephalotes,Insecta,inequity_sensitivity,0.3.0,0.3.1,0.711271,0.711271,0.0,0.0
+species,Atta cephalotes,Insecta,punishment_propensity,0.3.0,0.3.1,0.639279,0.639279,0.0,0.0
+species,Atta cephalotes,Insecta,tokenization_capacity,0.3.0,0.3.1,0.645262,0.645262,0.0,0.0
+species,Bombus terrestris,Insecta,risk_preference,0.1.0,0.3.0,1.014098,0.940214,0.073884,0.072857
+species,Bombus terrestris,Insecta,temporal_discount_rate,0.1.0,0.3.0,0.773687,0.716465,0.057222,0.07396
+species,Bombus terrestris,Insecta,effort_price_elasticity,0.1.0,0.3.0,-0.578761,-0.640688,0.061927,0.106999
+species,Bombus terrestris,Insecta,cooperation_propensity,0.1.0,0.3.0,0.562177,0.764264,0.202087,0.359472
+species,Bombus terrestris,Insecta,inequity_sensitivity,0.1.0,0.3.0,0.634148,0.690521,0.056373,0.088896
+species,Bombus terrestris,Insecta,punishment_propensity,0.1.0,0.3.0,0.531195,0.612503,0.081308,0.153066
+species,Bombus terrestris,Insecta,tokenization_capacity,0.1.0,0.3.0,0.561688,0.617387,0.055699,0.099164
+species,Bombus terrestris,Insecta,risk_preference,0.3.0,0.3.1,0.940214,0.940214,0.0,0.0
+species,Bombus terrestris,Insecta,temporal_discount_rate,0.3.0,0.3.1,0.716465,0.716465,0.0,0.0
+species,Bombus terrestris,Insecta,effort_price_elasticity,0.3.0,0.3.1,-0.640688,-0.640688,0.0,0.0
+species,Bombus terrestris,Insecta,cooperation_propensity,0.3.0,0.3.1,0.764264,0.764264,0.0,0.0
+species,Bombus terrestris,Insecta,inequity_sensitivity,0.3.0,0.3.1,0.690521,0.690521,0.0,0.0
+species,Bombus terrestris,Insecta,punishment_propensity,0.3.0,0.3.1,0.612503,0.612503,0.0,0.0
+species,Bombus terrestris,Insecta,tokenization_capacity,0.3.0,0.3.1,0.617387,0.617387,0.0,0.0
+species,Bonobo paniscus,Mammalia,risk_preference,0.1.0,0.3.0,0.910475,0.897268,0.013207,0.014506
+species,Bonobo paniscus,Mammalia,temporal_discount_rate,0.1.0,0.3.0,0.45182,0.440931,0.010889,0.0241
+species,Bonobo paniscus,Mammalia,effort_price_elasticity,0.1.0,0.3.0,-0.619739,-0.723272,0.103533,0.167059
+species,Bonobo paniscus,Mammalia,cooperation_propensity,0.1.0,0.3.0,0.681386,0.813419,0.132033,0.193771
+species,Bonobo paniscus,Mammalia,inequity_sensitivity,0.1.0,0.3.0,0.682676,0.787684,0.105008,0.153818
+species,Bonobo paniscus,Mammalia,punishment_propensity,0.1.0,0.3.0,0.63394,0.663646,0.029706,0.046859
+species,Bonobo paniscus,Mammalia,tokenization_capacity,0.1.0,0.3.0,0.781873,0.841867,0.059994,0.076731
+species,Bonobo paniscus,Mammalia,risk_preference,0.3.0,0.3.1,0.897268,0.897268,0.0,0.0
+species,Bonobo paniscus,Mammalia,temporal_discount_rate,0.3.0,0.3.1,0.440931,0.440931,0.0,0.0
+species,Bonobo paniscus,Mammalia,effort_price_elasticity,0.3.0,0.3.1,-0.723272,-0.723272,0.0,0.0
+species,Bonobo paniscus,Mammalia,cooperation_propensity,0.3.0,0.3.1,0.813419,0.813419,0.0,0.0
+species,Bonobo paniscus,Mammalia,inequity_sensitivity,0.3.0,0.3.1,0.787684,0.787684,0.0,0.0
+species,Bonobo paniscus,Mammalia,punishment_propensity,0.3.0,0.3.1,0.663646,0.663646,0.0,0.0
+species,Bonobo paniscus,Mammalia,tokenization_capacity,0.3.0,0.3.1,0.841867,0.841867,0.0,0.0
+species,Columba livia,Aves,risk_preference,0.1.0,0.3.0,1.003243,1.008916,0.005673,0.005655
+species,Columba livia,Aves,temporal_discount_rate,0.1.0,0.3.0,0.492998,0.498023,0.005025,0.010193
+species,Columba livia,Aves,effort_price_elasticity,0.1.0,0.3.0,-1.124385,-0.99784,0.126545,0.112546
+species,Columba livia,Aves,cooperation_propensity,0.1.0,0.3.0,0.629857,0.66533,0.035473,0.056319
+species,Columba livia,Aves,inequity_sensitivity,0.1.0,0.3.0,0.640546,0.649604,0.009058,0.014141
+species,Columba livia,Aves,punishment_propensity,0.1.0,0.3.0,0.559394,0.563183,0.003789,0.006773
+species,Columba livia,Aves,tokenization_capacity,0.1.0,0.3.0,0.74419,0.767387,0.023197,0.031171
+species,Columba livia,Aves,risk_preference,0.3.0,0.3.1,1.008916,1.008916,0.0,0.0
+species,Columba livia,Aves,temporal_discount_rate,0.3.0,0.3.1,0.498023,0.498023,0.0,0.0
+species,Columba livia,Aves,effort_price_elasticity,0.3.0,0.3.1,-0.99784,-0.99784,0.0,0.0
+species,Columba livia,Aves,cooperation_propensity,0.3.0,0.3.1,0.66533,0.66533,0.0,0.0
+species,Columba livia,Aves,inequity_sensitivity,0.3.0,0.3.1,0.649604,0.649604,0.0,0.0
+species,Columba livia,Aves,punishment_propensity,0.3.0,0.3.1,0.563183,0.563183,0.0,0.0
+species,Columba livia,Aves,tokenization_capacity,0.3.0,0.3.1,0.767387,0.767387,0.0,0.0
+species,Corvus corax,Aves,risk_preference,0.1.0,0.3.0,0.991971,0.988907,0.003064,0.003089
+species,Corvus corax,Aves,temporal_discount_rate,0.1.0,0.3.0,0.488974,0.487086,0.001888,0.003861
+species,Corvus corax,Aves,effort_price_elasticity,0.1.0,0.3.0,-0.76239,-0.79565,0.03326,0.043626
+species,Corvus corax,Aves,cooperation_propensity,0.1.0,0.3.0,0.654576,0.734494,0.079918,0.122091
+species,Corvus corax,Aves,inequity_sensitivity,0.1.0,0.3.0,0.664365,0.726142,0.061777,0.092987
+species,Corvus corax,Aves,punishment_propensity,0.1.0,0.3.0,0.577103,0.610183,0.03308,0.057321
+species,Corvus corax,Aves,tokenization_capacity,0.1.0,0.3.0,0.760166,0.796262,0.036096,0.047484
+species,Corvus corax,Aves,risk_preference,0.3.0,0.3.1,0.988907,0.988907,0.0,0.0
+species,Corvus corax,Aves,temporal_discount_rate,0.3.0,0.3.1,0.487086,0.487086,0.0,0.0
+species,Corvus corax,Aves,effort_price_elasticity,0.3.0,0.3.1,-0.79565,-0.79565,0.0,0.0
+species,Corvus corax,Aves,cooperation_propensity,0.3.0,0.3.1,0.734494,0.734494,0.0,0.0
+species,Corvus corax,Aves,inequity_sensitivity,0.3.0,0.3.1,0.726142,0.726142,0.0,0.0
+species,Corvus corax,Aves,punishment_propensity,0.3.0,0.3.1,0.610183,0.610183,0.0,0.0
+species,Corvus corax,Aves,tokenization_capacity,0.3.0,0.3.1,0.796262,0.796262,0.0,0.0
+species,Corvus moneduloides,Aves,risk_preference,0.1.0,0.3.0,0.992386,0.990828,0.001558,0.00157
+species,Corvus moneduloides,Aves,temporal_discount_rate,0.1.0,0.3.0,0.489707,0.491572,0.001865,0.003808
+species,Corvus moneduloides,Aves,effort_price_elasticity,0.1.0,0.3.0,-0.762056,-0.790146,0.02809,0.036861
+species,Corvus moneduloides,Aves,cooperation_propensity,0.1.0,0.3.0,0.653541,0.73309,0.079549,0.12172
+species,Corvus moneduloides,Aves,inequity_sensitivity,0.1.0,0.3.0,0.664453,0.725951,0.061498,0.092554
+species,Corvus moneduloides,Aves,punishment_propensity,0.1.0,0.3.0,0.576963,0.609067,0.032104,0.055643
+species,Corvus moneduloides,Aves,tokenization_capacity,0.1.0,0.3.0,0.759593,0.794762,0.035169,0.0463
+species,Corvus moneduloides,Aves,risk_preference,0.3.0,0.3.1,0.990828,0.990828,0.0,0.0
+species,Corvus moneduloides,Aves,temporal_discount_rate,0.3.0,0.3.1,0.491572,0.491572,0.0,0.0
+species,Corvus moneduloides,Aves,effort_price_elasticity,0.3.0,0.3.1,-0.790146,-0.790146,0.0,0.0
+species,Corvus moneduloides,Aves,cooperation_propensity,0.3.0,0.3.1,0.73309,0.73309,0.0,0.0
+species,Corvus moneduloides,Aves,inequity_sensitivity,0.3.0,0.3.1,0.725951,0.725951,0.0,0.0
+species,Corvus moneduloides,Aves,punishment_propensity,0.3.0,0.3.1,0.609067,0.609067,0.0,0.0
+species,Corvus moneduloides,Aves,tokenization_capacity,0.3.0,0.3.1,0.794762,0.794762,0.0,0.0
+species,Danio rerio,Actinopterygii,risk_preference,0.1.0,0.3.0,1.038798,1.113065,0.074267,0.071493
+species,Danio rerio,Actinopterygii,temporal_discount_rate,0.1.0,0.3.0,0.653738,0.666336,0.012598,0.019271
+species,Danio rerio,Actinopterygii,effort_price_elasticity,0.1.0,0.3.0,-1.146517,-1.025131,0.121386,0.105874
+species,Danio rerio,Actinopterygii,cooperation_propensity,0.1.0,0.3.0,0.52041,0.534405,0.013995,0.026892
+species,Danio rerio,Actinopterygii,inequity_sensitivity,0.1.0,0.3.0,0.577043,0.559101,0.017942,0.031093
+species,Danio rerio,Actinopterygii,punishment_propensity,0.1.0,0.3.0,0.485095,0.469426,0.015669,0.032301
+species,Danio rerio,Actinopterygii,tokenization_capacity,0.1.0,0.3.0,0.446046,0.4787,0.032654,0.073208
+species,Danio rerio,Actinopterygii,risk_preference,0.3.0,0.3.1,1.113065,1.113065,0.0,0.0
+species,Danio rerio,Actinopterygii,temporal_discount_rate,0.3.0,0.3.1,0.666336,0.666336,0.0,0.0
+species,Danio rerio,Actinopterygii,effort_price_elasticity,0.3.0,0.3.1,-1.025131,-1.025131,0.0,0.0
+species,Danio rerio,Actinopterygii,cooperation_propensity,0.3.0,0.3.1,0.534405,0.534405,0.0,0.0
+species,Danio rerio,Actinopterygii,inequity_sensitivity,0.3.0,0.3.1,0.559101,0.559101,0.0,0.0
+species,Danio rerio,Actinopterygii,punishment_propensity,0.3.0,0.3.1,0.469426,0.469426,0.0,0.0
+species,Danio rerio,Actinopterygii,tokenization_capacity,0.3.0,0.3.1,0.4787,0.4787,0.0,0.0
+species,Drosophila melanogaster,Insecta,risk_preference,0.1.0,0.3.0,1.097283,1.118083,0.0208,0.018956
+species,Drosophila melanogaster,Insecta,temporal_discount_rate,0.1.0,0.3.0,0.838509,0.78794,0.050569,0.060308
+species,Drosophila melanogaster,Insecta,effort_price_elasticity,0.1.0,0.3.0,-1.083125,-0.910891,0.172234,0.159016
+species,Drosophila melanogaster,Insecta,cooperation_propensity,0.1.0,0.3.0,0.484635,0.535347,0.050712,0.10464
+species,Drosophila melanogaster,Insecta,inequity_sensitivity,0.1.0,0.3.0,0.583054,0.548307,0.034747,0.059595
+species,Drosophila melanogaster,Insecta,punishment_propensity,0.1.0,0.3.0,0.520536,0.462541,0.057995,0.111414
+species,Drosophila melanogaster,Insecta,tokenization_capacity,0.1.0,0.3.0,0.511981,0.474262,0.037719,0.073673
+species,Drosophila melanogaster,Insecta,risk_preference,0.3.0,0.3.1,1.118083,1.118083,0.0,0.0
+species,Drosophila melanogaster,Insecta,temporal_discount_rate,0.3.0,0.3.1,0.78794,0.78794,0.0,0.0
+species,Drosophila melanogaster,Insecta,effort_price_elasticity,0.3.0,0.3.1,-0.910891,-0.910891,0.0,0.0
+species,Drosophila melanogaster,Insecta,cooperation_propensity,0.3.0,0.3.1,0.535347,0.535347,0.0,0.0
+species,Drosophila melanogaster,Insecta,inequity_sensitivity,0.3.0,0.3.1,0.548307,0.548307,0.0,0.0
+species,Drosophila melanogaster,Insecta,punishment_propensity,0.3.0,0.3.1,0.462541,0.462541,0.0,0.0
+species,Drosophila melanogaster,Insecta,tokenization_capacity,0.3.0,0.3.1,0.474262,0.474262,0.0,0.0
+species,Gasterosteus aculeatus,Actinopterygii,risk_preference,0.1.0,0.3.0,1.026644,1.087573,0.060929,0.059348
+species,Gasterosteus aculeatus,Actinopterygii,temporal_discount_rate,0.1.0,0.3.0,0.656311,0.64087,0.015441,0.023527
+species,Gasterosteus aculeatus,Actinopterygii,effort_price_elasticity,0.1.0,0.3.0,-1.077973,-1.016298,0.061675,0.057214
+species,Gasterosteus aculeatus,Actinopterygii,cooperation_propensity,0.1.0,0.3.0,0.531669,0.553319,0.02165,0.040721
+species,Gasterosteus aculeatus,Actinopterygii,inequity_sensitivity,0.1.0,0.3.0,0.585242,0.574001,0.011241,0.019207
+species,Gasterosteus aculeatus,Actinopterygii,punishment_propensity,0.1.0,0.3.0,0.491726,0.482516,0.00921,0.01873
+species,Gasterosteus aculeatus,Actinopterygii,tokenization_capacity,0.1.0,0.3.0,0.453635,0.48995,0.036315,0.080053
+species,Gasterosteus aculeatus,Actinopterygii,risk_preference,0.3.0,0.3.1,1.087573,1.087573,0.0,0.0
+species,Gasterosteus aculeatus,Actinopterygii,temporal_discount_rate,0.3.0,0.3.1,0.64087,0.64087,0.0,0.0
+species,Gasterosteus aculeatus,Actinopterygii,effort_price_elasticity,0.3.0,0.3.1,-1.016298,-1.016298,0.0,0.0
+species,Gasterosteus aculeatus,Actinopterygii,cooperation_propensity,0.3.0,0.3.1,0.553319,0.553319,0.0,0.0
+species,Gasterosteus aculeatus,Actinopterygii,inequity_sensitivity,0.3.0,0.3.1,0.574001,0.574001,0.0,0.0
+species,Gasterosteus aculeatus,Actinopterygii,punishment_propensity,0.3.0,0.3.1,0.482516,0.482516,0.0,0.0
+species,Gasterosteus aculeatus,Actinopterygii,tokenization_capacity,0.3.0,0.3.1,0.48995,0.48995,0.0,0.0
+species,Macaca mulatta,Mammalia,risk_preference,0.1.0,0.3.0,0.930021,0.922205,0.007816,0.008404
+species,Macaca mulatta,Mammalia,temporal_discount_rate,0.1.0,0.3.0,0.476833,0.464781,0.012052,0.025275
+species,Macaca mulatta,Mammalia,effort_price_elasticity,0.1.0,0.3.0,-0.704852,-0.752091,0.047239,0.06702
+species,Macaca mulatta,Mammalia,cooperation_propensity,0.1.0,0.3.0,0.682398,0.781611,0.099213,0.145389
+species,Macaca mulatta,Mammalia,inequity_sensitivity,0.1.0,0.3.0,0.676487,0.765324,0.088837,0.131321
+species,Macaca mulatta,Mammalia,punishment_propensity,0.1.0,0.3.0,0.60113,0.641908,0.040778,0.067836
+species,Macaca mulatta,Mammalia,tokenization_capacity,0.1.0,0.3.0,0.780589,0.821992,0.041403,0.053041
+species,Macaca mulatta,Mammalia,risk_preference,0.3.0,0.3.1,0.922205,0.922205,0.0,0.0
+species,Macaca mulatta,Mammalia,temporal_discount_rate,0.3.0,0.3.1,0.464781,0.464781,0.0,0.0
+species,Macaca mulatta,Mammalia,effort_price_elasticity,0.3.0,0.3.1,-0.752091,-0.752091,0.0,0.0
+species,Macaca mulatta,Mammalia,cooperation_propensity,0.3.0,0.3.1,0.781611,0.781611,0.0,0.0
+species,Macaca mulatta,Mammalia,inequity_sensitivity,0.3.0,0.3.1,0.765324,0.765324,0.0,0.0
+species,Macaca mulatta,Mammalia,punishment_propensity,0.3.0,0.3.1,0.641908,0.641908,0.0,0.0
+species,Macaca mulatta,Mammalia,tokenization_capacity,0.3.0,0.3.1,0.821992,0.821992,0.0,0.0
+species,Mus musculus,Mammalia,risk_preference,0.1.0,0.3.0,0.979586,1.015594,0.036008,0.036758
+species,Mus musculus,Mammalia,temporal_discount_rate,0.1.0,0.3.0,0.632072,0.644137,0.012065,0.019088
+species,Mus musculus,Mammalia,effort_price_elasticity,0.1.0,0.3.0,-1.191557,-1.024106,0.167451,0.140531
+species,Mus musculus,Mammalia,cooperation_propensity,0.1.0,0.3.0,0.647127,0.64364,0.003487,0.005388
+species,Mus musculus,Mammalia,inequity_sensitivity,0.1.0,0.3.0,0.641211,0.636689,0.004522,0.007052
+species,Mus musculus,Mammalia,punishment_propensity,0.1.0,0.3.0,0.570139,0.548585,0.021554,0.037805
+species,Mus musculus,Mammalia,tokenization_capacity,0.1.0,0.3.0,0.750847,0.752992,0.002145,0.002857
+species,Mus musculus,Mammalia,risk_preference,0.3.0,0.3.1,1.015594,1.015594,0.0,0.0
+species,Mus musculus,Mammalia,temporal_discount_rate,0.3.0,0.3.1,0.644137,0.644137,0.0,0.0
+species,Mus musculus,Mammalia,effort_price_elasticity,0.3.0,0.3.1,-1.024106,-1.024106,0.0,0.0
+species,Mus musculus,Mammalia,cooperation_propensity,0.3.0,0.3.1,0.64364,0.64364,0.0,0.0
+species,Mus musculus,Mammalia,inequity_sensitivity,0.3.0,0.3.1,0.636689,0.636689,0.0,0.0
+species,Mus musculus,Mammalia,punishment_propensity,0.3.0,0.3.1,0.548585,0.548585,0.0,0.0
+species,Mus musculus,Mammalia,tokenization_capacity,0.3.0,0.3.1,0.752992,0.752992,0.0,0.0
+species,Nestor notabilis,Aves,risk_preference,0.1.0,0.3.0,0.987747,0.960049,0.027698,0.028042
+species,Nestor notabilis,Aves,temporal_discount_rate,0.1.0,0.3.0,0.488644,0.482557,0.006087,0.012457
+species,Nestor notabilis,Aves,effort_price_elasticity,0.1.0,0.3.0,-0.801579,-0.787006,0.014573,0.01818
+species,Nestor notabilis,Aves,cooperation_propensity,0.1.0,0.3.0,0.639949,0.75699,0.117041,0.182891
+species,Nestor notabilis,Aves,inequity_sensitivity,0.1.0,0.3.0,0.655529,0.733504,0.077975,0.11895
+species,Nestor notabilis,Aves,punishment_propensity,0.1.0,0.3.0,0.572127,0.624047,0.05192,0.090749
+species,Nestor notabilis,Aves,tokenization_capacity,0.1.0,0.3.0,0.743821,0.812387,0.068566,0.092181
+species,Nestor notabilis,Aves,risk_preference,0.3.0,0.3.1,0.960049,0.960049,0.0,0.0
+species,Nestor notabilis,Aves,temporal_discount_rate,0.3.0,0.3.1,0.482557,0.482557,0.0,0.0
+species,Nestor notabilis,Aves,effort_price_elasticity,0.3.0,0.3.1,-0.787006,-0.787006,0.0,0.0
+species,Nestor notabilis,Aves,cooperation_propensity,0.3.0,0.3.1,0.75699,0.75699,0.0,0.0
+species,Nestor notabilis,Aves,inequity_sensitivity,0.3.0,0.3.1,0.733504,0.733504,0.0,0.0
+species,Nestor notabilis,Aves,punishment_propensity,0.3.0,0.3.1,0.624047,0.624047,0.0,0.0
+species,Nestor notabilis,Aves,tokenization_capacity,0.3.0,0.3.1,0.812387,0.812387,0.0,0.0
+species,Octopus vulgaris,Cephalopoda,risk_preference,0.1.0,0.3.0,1.062664,1.135511,0.072847,0.068551
+species,Octopus vulgaris,Cephalopoda,temporal_discount_rate,0.1.0,0.3.0,0.602834,0.600627,0.002207,0.003661
+species,Octopus vulgaris,Cephalopoda,effort_price_elasticity,0.1.0,0.3.0,-1.347891,-1.345703,0.002188,0.001623
+species,Octopus vulgaris,Cephalopoda,cooperation_propensity,0.1.0,0.3.0,0.523238,0.442671,0.080567,0.153978
+species,Octopus vulgaris,Cephalopoda,inequity_sensitivity,0.1.0,0.3.0,0.595466,0.539658,0.055808,0.093722
+species,Octopus vulgaris,Cephalopoda,punishment_propensity,0.1.0,0.3.0,0.508326,0.424382,0.083944,0.165138
+species,Octopus vulgaris,Cephalopoda,tokenization_capacity,0.1.0,0.3.0,0.613755,0.624075,0.01032,0.016815
+species,Octopus vulgaris,Cephalopoda,risk_preference,0.3.0,0.3.1,1.135511,1.135511,0.0,0.0
+species,Octopus vulgaris,Cephalopoda,temporal_discount_rate,0.3.0,0.3.1,0.600627,0.600627,0.0,0.0
+species,Octopus vulgaris,Cephalopoda,effort_price_elasticity,0.3.0,0.3.1,-1.345703,-1.345703,0.0,0.0
+species,Octopus vulgaris,Cephalopoda,cooperation_propensity,0.3.0,0.3.1,0.442671,0.442671,0.0,0.0
+species,Octopus vulgaris,Cephalopoda,inequity_sensitivity,0.3.0,0.3.1,0.539658,0.539658,0.0,0.0
+species,Octopus vulgaris,Cephalopoda,punishment_propensity,0.3.0,0.3.1,0.424382,0.424382,0.0,0.0
+species,Octopus vulgaris,Cephalopoda,tokenization_capacity,0.3.0,0.3.1,0.624075,0.624075,0.0,0.0
+species,Pan troglodytes,Mammalia,risk_preference,0.1.0,0.3.0,0.911386,0.900455,0.010931,0.011994
+species,Pan troglodytes,Mammalia,temporal_discount_rate,0.1.0,0.3.0,0.452367,0.440479,0.011888,0.02628
+species,Pan troglodytes,Mammalia,effort_price_elasticity,0.1.0,0.3.0,-0.620925,-0.726854,0.105929,0.170599
+species,Pan troglodytes,Mammalia,cooperation_propensity,0.1.0,0.3.0,0.68108,0.810914,0.129834,0.19063
+species,Pan troglodytes,Mammalia,inequity_sensitivity,0.1.0,0.3.0,0.682441,0.786418,0.103977,0.15236
+species,Pan troglodytes,Mammalia,punishment_propensity,0.1.0,0.3.0,0.633285,0.662153,0.028868,0.045585
+species,Pan troglodytes,Mammalia,tokenization_capacity,0.1.0,0.3.0,0.782041,0.840367,0.058326,0.074582
+species,Pan troglodytes,Mammalia,risk_preference,0.3.0,0.3.1,0.900455,0.900455,0.0,0.0
+species,Pan troglodytes,Mammalia,temporal_discount_rate,0.3.0,0.3.1,0.440479,0.440479,0.0,0.0
+species,Pan troglodytes,Mammalia,effort_price_elasticity,0.3.0,0.3.1,-0.726854,-0.726854,0.0,0.0
+species,Pan troglodytes,Mammalia,cooperation_propensity,0.3.0,0.3.1,0.810914,0.810914,0.0,0.0
+species,Pan troglodytes,Mammalia,inequity_sensitivity,0.3.0,0.3.1,0.786418,0.786418,0.0,0.0
+species,Pan troglodytes,Mammalia,punishment_propensity,0.3.0,0.3.1,0.662153,0.662153,0.0,0.0
+species,Pan troglodytes,Mammalia,tokenization_capacity,0.3.0,0.3.1,0.840367,0.840367,0.0,0.0
+species,Poecilia reticulata,Actinopterygii,risk_preference,0.1.0,0.3.0,1.038077,1.096986,0.058909,0.056748
+species,Poecilia reticulata,Actinopterygii,temporal_discount_rate,0.1.0,0.3.0,0.700028,0.68662,0.013408,0.019154
+species,Poecilia reticulata,Actinopterygii,effort_price_elasticity,0.1.0,0.3.0,-1.0303,-0.977804,0.052496,0.050952
+species,Poecilia reticulata,Actinopterygii,cooperation_propensity,0.1.0,0.3.0,0.535026,0.559316,0.02429,0.0454
+species,Poecilia reticulata,Actinopterygii,inequity_sensitivity,0.1.0,0.3.0,0.577964,0.569473,0.008491,0.014691
+species,Poecilia reticulata,Actinopterygii,punishment_propensity,0.1.0,0.3.0,0.486886,0.484081,0.002805,0.005761
+species,Poecilia reticulata,Actinopterygii,tokenization_capacity,0.1.0,0.3.0,0.452994,0.49445,0.041456,0.091516
+species,Poecilia reticulata,Actinopterygii,risk_preference,0.3.0,0.3.1,1.096986,1.096986,0.0,0.0
+species,Poecilia reticulata,Actinopterygii,temporal_discount_rate,0.3.0,0.3.1,0.68662,0.68662,0.0,0.0
+species,Poecilia reticulata,Actinopterygii,effort_price_elasticity,0.3.0,0.3.1,-0.977804,-0.977804,0.0,0.0
+species,Poecilia reticulata,Actinopterygii,cooperation_propensity,0.3.0,0.3.1,0.559316,0.559316,0.0,0.0
+species,Poecilia reticulata,Actinopterygii,inequity_sensitivity,0.3.0,0.3.1,0.569473,0.569473,0.0,0.0
+species,Poecilia reticulata,Actinopterygii,punishment_propensity,0.3.0,0.3.1,0.484081,0.484081,0.0,0.0
+species,Poecilia reticulata,Actinopterygii,tokenization_capacity,0.3.0,0.3.1,0.49445,0.49445,0.0,0.0
+species,Procambarus clarkii,Malacostraca,risk_preference,0.1.0,0.3.0,1.046395,1.110949,0.064554,0.061692
+species,Procambarus clarkii,Malacostraca,temporal_discount_rate,0.1.0,0.3.0,0.707102,0.748908,0.041806,0.059123
+species,Procambarus clarkii,Malacostraca,effort_price_elasticity,0.1.0,0.3.0,-1.17521,-1.166723,0.008487,0.007222
+species,Procambarus clarkii,Malacostraca,cooperation_propensity,0.1.0,0.3.0,0.547229,0.488074,0.059155,0.108099
+species,Procambarus clarkii,Malacostraca,inequity_sensitivity,0.1.0,0.3.0,0.603683,0.553219,0.050464,0.083594
+species,Procambarus clarkii,Malacostraca,punishment_propensity,0.1.0,0.3.0,0.516588,0.445667,0.070921,0.137287
+species,Procambarus clarkii,Malacostraca,tokenization_capacity,0.1.0,0.3.0,0.540538,0.4877,0.052838,0.097751
+species,Procambarus clarkii,Malacostraca,risk_preference,0.3.0,0.3.1,1.110949,1.110949,0.0,0.0
+species,Procambarus clarkii,Malacostraca,temporal_discount_rate,0.3.0,0.3.1,0.748908,0.748908,0.0,0.0
+species,Procambarus clarkii,Malacostraca,effort_price_elasticity,0.3.0,0.3.1,-1.166723,-1.166723,0.0,0.0
+species,Procambarus clarkii,Malacostraca,cooperation_propensity,0.3.0,0.3.1,0.488074,0.488074,0.0,0.0
+species,Procambarus clarkii,Malacostraca,inequity_sensitivity,0.3.0,0.3.1,0.553219,0.553219,0.0,0.0
+species,Procambarus clarkii,Malacostraca,punishment_propensity,0.3.0,0.3.1,0.445667,0.445667,0.0,0.0
+species,Procambarus clarkii,Malacostraca,tokenization_capacity,0.3.0,0.3.1,0.4877,0.4877,0.0,0.0
+species,Rattus norvegicus,Mammalia,risk_preference,0.1.0,0.3.0,0.976529,1.01091,0.034381,0.035207
+species,Rattus norvegicus,Mammalia,temporal_discount_rate,0.1.0,0.3.0,0.624757,0.635802,0.011045,0.017679
+species,Rattus norvegicus,Mammalia,effort_price_elasticity,0.1.0,0.3.0,-1.189296,-1.022715,0.166581,0.140067
+species,Rattus norvegicus,Mammalia,cooperation_propensity,0.1.0,0.3.0,0.648894,0.648515,0.000379,0.000584
+species,Rattus norvegicus,Mammalia,inequity_sensitivity,0.1.0,0.3.0,0.642338,0.640952,0.001386,0.002158
+species,Rattus norvegicus,Mammalia,punishment_propensity,0.1.0,0.3.0,0.572365,0.552177,0.020188,0.035271
+species,Rattus norvegicus,Mammalia,tokenization_capacity,0.1.0,0.3.0,0.750808,0.755992,0.005184,0.006905
+species,Rattus norvegicus,Mammalia,risk_preference,0.3.0,0.3.1,1.01091,1.01091,0.0,0.0
+species,Rattus norvegicus,Mammalia,temporal_discount_rate,0.3.0,0.3.1,0.635802,0.635802,0.0,0.0
+species,Rattus norvegicus,Mammalia,effort_price_elasticity,0.3.0,0.3.1,-1.022715,-1.022715,0.0,0.0
+species,Rattus norvegicus,Mammalia,cooperation_propensity,0.3.0,0.3.1,0.648515,0.648515,0.0,0.0
+species,Rattus norvegicus,Mammalia,inequity_sensitivity,0.3.0,0.3.1,0.640952,0.640952,0.0,0.0
+species,Rattus norvegicus,Mammalia,punishment_propensity,0.3.0,0.3.1,0.552177,0.552177,0.0,0.0
+species,Rattus norvegicus,Mammalia,tokenization_capacity,0.3.0,0.3.1,0.755992,0.755992,0.0,0.0
+species,Sapajus apella,Mammalia,risk_preference,0.1.0,0.3.0,0.940398,0.941641,0.001243,0.001322
+species,Sapajus apella,Mammalia,temporal_discount_rate,0.1.0,0.3.0,0.487572,0.476824,0.010748,0.022044
+species,Sapajus apella,Mammalia,effort_price_elasticity,0.1.0,0.3.0,-0.75362,-0.764364,0.010744,0.014257
+species,Sapajus apella,Mammalia,cooperation_propensity,0.1.0,0.3.0,0.677919,0.766556,0.088637,0.130749
+species,Sapajus apella,Mammalia,inequity_sensitivity,0.1.0,0.3.0,0.672359,0.754966,0.082607,0.122861
+species,Sapajus apella,Mammalia,punishment_propensity,0.1.0,0.3.0,0.596037,0.631982,0.035945,0.060307
+species,Sapajus apella,Mammalia,tokenization_capacity,0.1.0,0.3.0,0.778485,0.812992,0.034507,0.044326
+species,Sapajus apella,Mammalia,risk_preference,0.3.0,0.3.1,0.941641,0.941641,0.0,0.0
+species,Sapajus apella,Mammalia,temporal_discount_rate,0.3.0,0.3.1,0.476824,0.476824,0.0,0.0
+species,Sapajus apella,Mammalia,effort_price_elasticity,0.3.0,0.3.1,-0.764364,-0.764364,0.0,0.0
+species,Sapajus apella,Mammalia,cooperation_propensity,0.3.0,0.3.1,0.766556,0.766556,0.0,0.0
+species,Sapajus apella,Mammalia,inequity_sensitivity,0.3.0,0.3.1,0.754966,0.754966,0.0,0.0
+species,Sapajus apella,Mammalia,punishment_propensity,0.3.0,0.3.1,0.631982,0.631982,0.0,0.0
+species,Sapajus apella,Mammalia,tokenization_capacity,0.3.0,0.3.1,0.812992,0.812992,0.0,0.0
+species,Sepia officinalis,Cephalopoda,risk_preference,0.1.0,0.3.0,1.058762,1.119642,0.06088,0.057501
+species,Sepia officinalis,Cephalopoda,temporal_discount_rate,0.1.0,0.3.0,0.588009,0.557401,0.030608,0.052054
+species,Sepia officinalis,Cephalopoda,effort_price_elasticity,0.1.0,0.3.0,-1.302879,-1.312813,0.009934,0.007625
+species,Sepia officinalis,Cephalopoda,cooperation_propensity,0.1.0,0.3.0,0.527624,0.460816,0.066808,0.12662
+species,Sepia officinalis,Cephalopoda,inequity_sensitivity,0.1.0,0.3.0,0.598216,0.547341,0.050875,0.085045
+species,Sepia officinalis,Cephalopoda,punishment_propensity,0.1.0,0.3.0,0.511524,0.434947,0.076577,0.149704
+species,Sepia officinalis,Cephalopoda,tokenization_capacity,0.1.0,0.3.0,0.615383,0.635325,0.019942,0.032406
+species,Sepia officinalis,Cephalopoda,risk_preference,0.3.0,0.3.1,1.119642,1.119642,0.0,0.0
+species,Sepia officinalis,Cephalopoda,temporal_discount_rate,0.3.0,0.3.1,0.557401,0.557401,0.0,0.0
+species,Sepia officinalis,Cephalopoda,effort_price_elasticity,0.3.0,0.3.1,-1.312813,-1.312813,0.0,0.0
+species,Sepia officinalis,Cephalopoda,cooperation_propensity,0.3.0,0.3.1,0.460816,0.460816,0.0,0.0
+species,Sepia officinalis,Cephalopoda,inequity_sensitivity,0.3.0,0.3.1,0.547341,0.547341,0.0,0.0
+species,Sepia officinalis,Cephalopoda,punishment_propensity,0.3.0,0.3.1,0.434947,0.434947,0.0,0.0
+species,Sepia officinalis,Cephalopoda,tokenization_capacity,0.3.0,0.3.1,0.635325,0.635325,0.0,0.0

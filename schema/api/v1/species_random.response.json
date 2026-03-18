@@ -1,0 +1,53 @@
+{
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "dataset": {
+      "title": "Dataset",
+      "type": "string"
+    },
+    "dataset_version": {
+      "title": "Dataset Version",
+      "type": "string"
+    },
+    "label": {
+      "title": "Label",
+      "type": "string"
+    },
+    "requested_bucket": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Requested Bucket"
+    },
+    "matched_bucket": {
+      "title": "Matched Bucket",
+      "type": "boolean"
+    },
+    "row": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Row",
+      "type": "object"
+    }
+  },
+  "required": [
+    "id",
+    "dataset",
+    "dataset_version",
+    "label",
+    "requested_bucket",
+    "matched_bucket",
+    "row"
+  ],
+  "title": "SpeciesRandomResponse",
+  "type": "object"
+}

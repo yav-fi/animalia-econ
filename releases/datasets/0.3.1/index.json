@@ -1,0 +1,13 @@
+{
+  "api_version": "v1",
+  "contract_version": "1.0.0",
+  "schemas": [
+    "contract.response.json",
+    "health.response.json",
+    "meta.response.json",
+    "metrics.response.json",
+    "simulate.request.json",
+    "simulate.response.json",
+    "taxon_priors.response.json"
+  ]
+}

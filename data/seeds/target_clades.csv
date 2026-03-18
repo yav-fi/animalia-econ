@@ -1,0 +1,5 @@
+rank,taxon,target_n,priority,notes
+class,Mammalia,12,1,Increase mammal coverage for cooperation/fairness tasks
+class,Aves,10,1,Increase bird coverage for social and risk variation
+class,Insecta,10,1,Increase insect coverage for collective behavior variance
+class,Actinopterygii,9,1,Increase fish coverage for risk-choice comparisons

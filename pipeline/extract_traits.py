@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 import math
 
-from common import clamp, read_csv, write_csv
+from common import ProgressPrinter, clamp, read_csv, write_csv
 
 _ACTIVITY_MAP = {
     "diurnal": 1.0,
@@ -24,6 +24,7 @@ _HABITAT_MAP = {
 
 def normalize(seed_rows: list[dict[str, str]]) -> list[dict[str, object]]:
     rows: list[dict[str, object]] = []
+    progress = ProgressPrinter(total=len(seed_rows), label="extract_traits")
     for row in seed_rows:
         mass = float(row["body_mass_kg"])
         sociality = float(row["sociality_score"])
@@ -46,6 +47,8 @@ def normalize(seed_rows: list[dict[str, str]]) -> list[dict[str, object]]:
                 "source_confidence": row["source_confidence"],
             }
         )
+        progress.tick()
+    progress.finish()
     return rows
 
 

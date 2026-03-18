@@ -1,5 +1,5 @@
-You are estimating species-level priors for economic behavior parameters.
-Use only provided structured species/trait evidence.
+You are estimating taxon- or species-level priors for economic behavior parameters.
+Use only provided structured taxonomy/trait evidence.
 Return strict JSON with fields:
 - risk_preference
 - temporal_discount_rate
@@ -14,4 +14,5 @@ Return strict JSON with fields:
 Rules:
 1. All values must be within schema bounds.
 2. Increase uncertainty if evidence is sparse or indirect.
-3. Mention key assumptions briefly in notes.
+3. Prefer conservative estimates when evidence is weak.
+4. Mention key assumptions briefly in notes.

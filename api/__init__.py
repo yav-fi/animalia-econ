@@ -1,0 +1,1 @@
+"""AnimaliaEcon API package."""

@@ -2,12 +2,13 @@ from __future__ import annotations
 
 import argparse
 
-from common import read_csv, stable_id, utc_now_iso, write_csv
+from common import ProgressPrinter, read_csv, stable_id, utc_now_iso, write_csv
 
 
 def build_taxonomy_rows(seed_rows: list[dict[str, str]], source: str, source_version: str) -> list[dict[str, str]]:
     out: list[dict[str, str]] = []
     retrieved_at = utc_now_iso()
+    progress = ProgressPrinter(total=len(seed_rows), label="extract_taxonomy")
     for row in seed_rows:
         species = row["species"].strip()
         out.append(
@@ -26,6 +27,8 @@ def build_taxonomy_rows(seed_rows: list[dict[str, str]], source: str, source_ver
                 "retrieved_at": retrieved_at,
             }
         )
+        progress.tick()
+    progress.finish()
     return out
 
 

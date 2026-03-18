@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "entity_kind": {
+      "title": "Entity Kind",
+      "type": "string"
+    },
+    "entity": {
+      "title": "Entity",
+      "type": "string"
+    },
+    "game": {
+      "title": "Game",
+      "type": "string"
+    },
+    "result": {
+      "additionalProperties": {
+        "type": "number"
+      },
+      "title": "Result",
+      "type": "object"
+    }
+  },
+  "required": [
+    "entity_kind",
+    "entity",
+    "game",
+    "result"
+  ],
+  "title": "SimulateResponse",
+  "type": "object"
+}

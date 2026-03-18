@@ -1,0 +1,52 @@
+{
+  "$defs": {
+    "DatasetStats": {
+      "properties": {
+        "taxon_rows": {
+          "title": "Taxon Rows",
+          "type": "integer"
+        },
+        "species_inherited_rows": {
+          "title": "Species Inherited Rows",
+          "type": "integer"
+        },
+        "species_observed_rows": {
+          "title": "Species Observed Rows",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "taxon_rows",
+        "species_inherited_rows",
+        "species_observed_rows"
+      ],
+      "title": "DatasetStats",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "service": {
+      "title": "Service",
+      "type": "string"
+    },
+    "api_version": {
+      "title": "Api Version",
+      "type": "string"
+    },
+    "contract_version": {
+      "title": "Contract Version",
+      "type": "string"
+    },
+    "stats": {
+      "$ref": "#/$defs/DatasetStats"
+    }
+  },
+  "required": [
+    "service",
+    "api_version",
+    "contract_version",
+    "stats"
+  ],
+  "title": "MetaResponse",
+  "type": "object"
+}

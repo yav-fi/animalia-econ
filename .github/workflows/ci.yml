@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build pipeline outputs
+        run: make pipeline
+
+      - name: Validate outputs
+        run: make validate-data
+
+      - name: Test suite
+        env:
+          MPLBACKEND: Agg
+          MPLCONFIGDIR: /tmp/matplotlib
+        run: make test
+
+      - name: Export API schemas
+        run: make api-schema
+
+      - name: Contract check
+        run: make contract-check
+
+      - name: Release flow smoke test
+        run: |
+          python pipeline/release_dataset.py \
+            --version ci-smoke \
+            --snapshot-root /tmp/animalia-releases \
+            --changelog /tmp/CHANGELOG.md \
+            --notes "CI smoke release" \
+            --files "data/processed/animaliaecon_taxon_priors.csv,data/processed/animaliaecon_species_inherited.csv,data/processed/animaliaecon_species_observed.csv,schema/api/v1/index.json,schema/api/v1/simulate.request.json,schema/api/v1/simulate.response.json"

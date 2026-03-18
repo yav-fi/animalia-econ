@@ -1,0 +1,13 @@
+rank,taxon,param,target_mean,target_sd,n_studies,citation,note
+class,Mammalia,cooperation_propensity,0.72,0.1,14,mammal_cooperation_meta_2021,Meta-analytic mammal cooperation baseline
+class,Mammalia,inequity_sensitivity,0.68,0.11,9,mammal_fairness_review_2019,Fairness sensitivity benchmark in mammals
+order,Primates,tokenization_capacity,0.82,0.08,11,primate_token_exchange_2022,Token exchange and symbolic transfer tasks
+family,Hominidae,punishment_propensity,0.69,0.09,7,hominid_punishment_games_2020,Third-party punishment frequency in hominids
+class,Aves,cooperation_propensity,0.61,0.12,8,avian_cooperation_synthesis_2018,Bird cooperation baseline across corvid/parrot studies
+class,Aves,risk_preference,1.02,0.14,10,avian_risk_choice_review_2021,Risk-choice tendencies in avian paradigms
+family,Corvidae,tokenization_capacity,0.79,0.09,6,corvid_token_tasks_2019,Token handling/caching proxy for symbolic capacity
+class,Insecta,cooperation_propensity,0.46,0.1,12,insect_collective_action_meta_2020,Collective action and recruitment benchmarks
+class,Insecta,risk_preference,1.17,0.15,8,insect_foraging_risk_2017,Foraging risk tradeoff experiments
+order,Hymenoptera,punishment_propensity,0.41,0.09,5,hymenoptera_conflict_resolution_2018,Conflict and sanction analogues in eusocial hymenoptera
+class,Actinopterygii,risk_preference,0.93,0.12,13,teleost_risk_behavior_meta_2022,Teleost risk preference pooled estimate
+class,Actinopterygii,temporal_discount_rate,0.88,0.13,7,fish_delay_discounting_review_2020,Delay discounting in fish choice tasks

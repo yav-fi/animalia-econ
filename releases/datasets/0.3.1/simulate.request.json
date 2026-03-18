@@ -1,0 +1,83 @@
+{
+  "properties": {
+    "game": {
+      "enum": [
+        "public-goods",
+        "ultimatum",
+        "trust",
+        "risk-choice"
+      ],
+      "title": "Game",
+      "type": "string"
+    },
+    "entity_kind": {
+      "default": "taxon",
+      "enum": [
+        "taxon",
+        "species"
+      ],
+      "title": "Entity Kind",
+      "type": "string"
+    },
+    "entity_name": {
+      "minLength": 1,
+      "title": "Entity Name",
+      "type": "string"
+    },
+    "rank": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Rank"
+    },
+    "species_dataset": {
+      "default": "inherited",
+      "enum": [
+        "inherited",
+        "observed"
+      ],
+      "title": "Species Dataset",
+      "type": "string"
+    },
+    "rounds": {
+      "anyOf": [
+        {
+          "maximum": 2000,
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Rounds"
+    },
+    "trials": {
+      "anyOf": [
+        {
+          "maximum": 100000,
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Trials"
+    }
+  },
+  "required": [
+    "game",
+    "entity_name"
+  ],
+  "title": "SimulateRequest",
+  "type": "object"
+}

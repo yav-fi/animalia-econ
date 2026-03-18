@@ -1,0 +1,36 @@
+{
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "dataset": {
+      "title": "Dataset",
+      "type": "string"
+    },
+    "dataset_version": {
+      "title": "Dataset Version",
+      "type": "string"
+    },
+    "label": {
+      "title": "Label",
+      "type": "string"
+    },
+    "row": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Row",
+      "type": "object"
+    }
+  },
+  "required": [
+    "id",
+    "dataset",
+    "dataset_version",
+    "label",
+    "row"
+  ],
+  "title": "SpeciesByIdResponse",
+  "type": "object"
+}

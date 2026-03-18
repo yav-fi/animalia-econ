@@ -1,0 +1,29 @@
+species,kingdom,phylum,class,order,family,genus,common_name,body_mass_kg,sociality_score,diet_breadth_score,activity_pattern,habitat_type,source_confidence,candidate_source,source_citation
+Canis lupus,Animalia,Chordata,Mammalia,Carnivora,Canidae,Canis,Gray wolf,35.0,0.78,0.63,crepuscular,forest,high,curated_candidate_bank_v1,mammal_behavior_review_2021
+Vulpes vulpes,Animalia,Chordata,Mammalia,Carnivora,Canidae,Vulpes,Red fox,6.2,0.42,0.69,nocturnal,mixed,medium,curated_candidate_bank_v1,carnivore_traits_compendium_2020
+Elephas maximus,Animalia,Chordata,Mammalia,Proboscidea,Elephantidae,Elephas,Asian elephant,3500.0,0.91,0.41,diurnal,forest,high,curated_candidate_bank_v1,elephant_sociality_synthesis_2019
+Delphinus delphis,Animalia,Chordata,Mammalia,Cetacea,Delphinidae,Delphinus,Common dolphin,110.0,0.89,0.58,diurnal,marine,high,curated_candidate_bank_v1,delphinid_cognition_review_2022
+Sus scrofa,Animalia,Chordata,Mammalia,Artiodactyla,Suidae,Sus,Wild boar,80.0,0.66,0.72,crepuscular,forest,medium,curated_candidate_bank_v1,ungulate_behavior_dataset_2021
+Odocoileus virginianus,Animalia,Chordata,Mammalia,Artiodactyla,Cervidae,Odocoileus,White-tailed deer,68.0,0.52,0.39,crepuscular,forest,medium,curated_candidate_bank_v1,ungulate_behavior_dataset_2021
+Phoca vitulina,Animalia,Chordata,Mammalia,Carnivora,Phocidae,Phoca,Harbor seal,95.0,0.57,0.49,diurnal,marine,medium,curated_candidate_bank_v1,pinniped_social_behavior_2018
+Pica pica,Animalia,Chordata,Aves,Passeriformes,Corvidae,Pica,Eurasian magpie,0.23,0.74,0.64,diurnal,mixed,high,curated_candidate_bank_v1,corvid_cognition_meta_2020
+Gallus gallus,Animalia,Chordata,Aves,Galliformes,Phasianidae,Gallus,Red junglefowl,1.1,0.61,0.42,diurnal,terrestrial,medium,curated_candidate_bank_v1,galliform_sociality_review_2017
+Anas platyrhynchos,Animalia,Chordata,Aves,Anseriformes,Anatidae,Anas,Mallard,1.0,0.58,0.51,diurnal,freshwater,medium,curated_candidate_bank_v1,waterfowl_behavior_atlas_2019
+Psittacus erithacus,Animalia,Chordata,Aves,Psittaciformes,Psittacidae,Psittacus,African grey parrot,0.42,0.8,0.48,diurnal,forest,high,curated_candidate_bank_v1,psittacine_cognition_survey_2021
+Sturnus vulgaris,Animalia,Chordata,Aves,Passeriformes,Sturnidae,Sturnus,Common starling,0.08,0.69,0.55,diurnal,urban,medium,curated_candidate_bank_v1,urban_bird_behavior_2018
+Larus argentatus,Animalia,Chordata,Aves,Charadriiformes,Laridae,Larus,Herring gull,1.0,0.53,0.62,diurnal,marine,medium,curated_candidate_bank_v1,seabird_foraging_behavior_2019
+Struthio camelus,Animalia,Chordata,Aves,Struthioniformes,Struthionidae,Struthio,Ostrich,100.0,0.47,0.32,diurnal,terrestrial,medium,curated_candidate_bank_v1,ratite_behavior_review_2016
+Camponotus pennsylvanicus,Animalia,Arthropoda,Insecta,Hymenoptera,Formicidae,Camponotus,Carpenter ant,0.00002,0.88,0.37,nocturnal,forest,high,curated_candidate_bank_v1,ant_colony_organization_2020
+Solenopsis invicta,Animalia,Arthropoda,Insecta,Hymenoptera,Formicidae,Solenopsis,Red imported fire ant,0.000008,0.9,0.42,diurnal,terrestrial,high,curated_candidate_bank_v1,ant_colony_organization_2020
+Blattella germanica,Animalia,Arthropoda,Insecta,Blattodea,Ectobiidae,Blattella,German cockroach,0.00008,0.44,0.66,nocturnal,urban,medium,curated_candidate_bank_v1,urban_insect_behavior_survey_2018
+Locusta migratoria,Animalia,Arthropoda,Insecta,Orthoptera,Acrididae,Locusta,Migratory locust,0.002,0.72,0.28,diurnal,terrestrial,medium,curated_candidate_bank_v1,locust_phase_behavior_2019
+Danaus plexippus,Animalia,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Danaus,Monarch butterfly,0.0005,0.33,0.19,diurnal,mixed,medium,curated_candidate_bank_v1,lepidoptera_migration_compendium_2021
+Manduca sexta,Animalia,Arthropoda,Insecta,Lepidoptera,Sphingidae,Manduca,Tobacco hornworm moth,0.0015,0.29,0.21,nocturnal,terrestrial,medium,curated_candidate_bank_v1,hawk_moth_behavior_2017
+Tenebrio molitor,Animalia,Arthropoda,Insecta,Coleoptera,Tenebrionidae,Tenebrio,Mealworm beetle,0.00012,0.26,0.34,nocturnal,terrestrial,medium,curated_candidate_bank_v1,coleoptera_behavioral_ecology_2016
+Oncorhynchus mykiss,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus,Rainbow trout,3.5,0.38,0.44,diurnal,freshwater,high,curated_candidate_bank_v1,salmonid_risk_behavior_2020
+Salmo salar,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Salmo,Atlantic salmon,4.0,0.35,0.42,diurnal,freshwater,high,curated_candidate_bank_v1,salmonid_risk_behavior_2020
+Gadus morhua,Animalia,Chordata,Actinopterygii,Gadiformes,Gadidae,Gadus,Atlantic cod,8.0,0.31,0.39,diurnal,marine,medium,curated_candidate_bank_v1,marine_fish_behavior_2019
+Carassius auratus,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Carassius,Goldfish,0.3,0.4,0.46,diurnal,freshwater,medium,curated_candidate_bank_v1,cyprinid_learning_review_2018
+Oreochromis niloticus,Animalia,Chordata,Actinopterygii,Cichliformes,Cichlidae,Oreochromis,Nile tilapia,0.9,0.54,0.43,diurnal,freshwater,medium,curated_candidate_bank_v1,cichlid_social_behavior_2022
+Thunnus albacares,Animalia,Chordata,Actinopterygii,Scombriformes,Scombridae,Thunnus,Yellowfin tuna,60.0,0.45,0.5,diurnal,marine,medium,curated_candidate_bank_v1,pelagic_fish_schooling_2018
+Xiphophorus maculatus,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Poeciliidae,Xiphophorus,Southern platyfish,0.004,0.48,0.52,diurnal,freshwater,high,curated_candidate_bank_v1,poeciliid_behavior_database_2021

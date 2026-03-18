@@ -7,7 +7,7 @@ from sim.games import SpeciesPriors, public_goods_game, risk_choice_task, trust_
 
 def _priors() -> SpeciesPriors:
     return SpeciesPriors(
-        species="Test species",
+        entity="Test entity",
         risk_preference=1.0,
         temporal_discount_rate=0.6,
         effort_price_elasticity=-0.7,

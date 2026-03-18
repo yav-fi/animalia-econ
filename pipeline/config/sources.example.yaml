@@ -1,18 +1,25 @@
 taxonomy:
-  source: catalogue_of_life
-  release: "2026-02"
+  source: opentree_taxonomy
+  root_name: Metazoa
+  refresh_mode: release_snapshot
+
 traits:
   providers:
-    - name: traitbank
-      enabled: true
-    - name: fishbase
+    - name: none_baseline
       enabled: true
     - name: avonet
-      enabled: true
+      enabled: false
+    - name: eltontraits
+      enabled: false
+    - name: amniote_life_history
+      enabled: false
+
 behavior_literature:
   extraction_mode: ai_assisted
+  provider: aws_bedrock
   min_confidence: 0.6
+
 model:
-  shrinkage_weight_taxonomy: 0.6
-  shrinkage_weight_traits: 0.4
+  shrinkage_weight_taxonomy: 0.7
+  shrinkage_weight_traits: 0.3
   default_uncertainty_sd: 0.25

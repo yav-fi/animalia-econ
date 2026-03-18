@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "current_dataset_version": {
+      "title": "Current Dataset Version",
+      "type": "string"
+    },
+    "available_versions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Available Versions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "current_dataset_version",
+    "available_versions"
+  ],
+  "title": "SnapshotsResponse",
+  "type": "object"
+}

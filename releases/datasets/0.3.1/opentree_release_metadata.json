@@ -1,0 +1,15 @@
+{
+  "source": "Open Tree of Life",
+  "resolved_from": "https://tree.opentreeoflife.org/about/taxonomy-version",
+  "release_version": "ott3.7.3",
+  "archive_url": "https://files.opentreeoflife.org/ott/ott3.7.3/ott3.7.3.tgz",
+  "archive_path": "data/raw/opentree/ott3.7.3/ott3.7.3.tgz",
+  "downloaded": true,
+  "extracted": true,
+  "extracted_files": {
+    "taxonomy.tsv": "data/interim/opentree/ott3.7.3/taxonomy.tsv",
+    "synonyms.tsv": "data/interim/opentree/ott3.7.3/synonyms.tsv",
+    "version.txt": "data/interim/opentree/ott3.7.3/version.txt"
+  },
+  "generated_at": "2026-03-17T19:57:42Z"
+}

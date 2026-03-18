@@ -1,6 +1,6 @@
-# animalia-econ
+# AnimaliaEcon
 
-AnimaliaEcon is an open, machine-readable dataset and reproducible pipeline for estimating economic-game parameter priors across animal taxa.
+AnimaliaEcon is an open, machine-readable dataset and reproducible pipeline for estimating economic-game priors across Animalia.
 
 The project starts with four simulation-ready game families:
 - Public Goods Game (cooperation/contribution)
@@ -8,11 +8,17 @@ The project starts with four simulation-ready game families:
 - Trust Game (reciprocal exchange)
 - Risk Choice Task (risk tolerance)
 
-## What this repository contains
-- Taxonomy + trait ingestion scaffolding
-- AI-assisted prior quantification pipeline
-- Uncertainty-aware prior outputs per taxon/species
-- Simulation tools to test species priors in the four core games
+## Core direction
+- Taxon-first priors: build robust priors at higher ranks first (`phylum`, `class`, `order`, `family`)
+- Deterministic waterfall baseline: estimate deterministic priors at higher ranks, then blend down to species
+- Coverage expansion by clade: auto-expand candidate species lists with per-row confidence scoring
+- Optional species inheritance: species can inherit from the nearest modeled taxon rank
+- AWS-first AI inference: use Amazon Bedrock models (including Anthropic Claude on Bedrock)
+- Formal hierarchical Bayesian pooling across taxonomy with propagated posterior uncertainty
+- Full Bayesian inference path (PyMC NUTS) with posterior predictive checks and diagnostics artifacts
+- Clade-level calibration to known behavioral-study anchors
+- Evidence bundles for species/taxon rows (citations, notes, AI rationale hashes)
+- Strict output validation: processed datasets are schema-checked in pipeline targets
 
 ## Animalia Labs
 Explore interactive demos and future hosted tools at [AnimaliaLabs.com](https://animalialabs.com). The goal there is to let users query taxa, inspect priors, and run game simulations in-browser.
@@ -23,37 +29,127 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-python pipeline/extract_taxonomy.py --seed data/seeds/species_seed.csv --out data/interim/taxonomy_backbone.csv
-python pipeline/extract_traits.py --seed data/seeds/species_seed.csv --out data/interim/traits_normalized.csv
-python pipeline/quantify_priors_ai.py \
-  --species data/seeds/species_seed.csv \
-  --traits data/interim/traits_normalized.csv \
-  --out data/interim/priors_estimated.csv
-python pipeline/fit_hierarchical_model.py \
-  --species data/seeds/species_seed.csv \
-  --priors data/interim/priors_estimated.csv \
-  --out data/interim/priors_posterior.csv
-python pipeline/build_dataset.py \
-  --species data/seeds/species_seed.csv \
-  --priors data/interim/priors_posterior.csv \
-  --out data/processed/animaliaecon_priors.csv
+# Optional AI refinement via Bedrock (Claude/Nova/etc.)
+export AWS_REGION=us-east-1
+export BEDROCK_MODEL_ID=anthropic.claude-3-5-sonnet-20241022-v2:0
 
-python -m sim.cli risk-choice --species "Pan troglodytes"
-python -m sim.cli public-goods --species "Corvus corax"
+make pipeline
+# or, if Bedrock credentials/model access are ready:
+make pipeline-ai
+# force complete AI recompute:
+make pipeline-ai-full
+#
+# validate outputs only:
+make validate-data
+# regenerate API contract schemas:
+make api-schema
+# enforce contract snapshot cleanliness:
+make contract-check
+# temporal/versioned priors + drift reports:
+make prior-history
+# simulation realism benchmark suite:
+make benchmark-sim
+
+# Simulate from taxon priors (default dataset)
+python -m sim.cli risk-choice --entity Mammalia --rank class
+python -m sim.cli public-goods --entity Corvidae --rank family
+
+# Optional species simulation using inherited dataset
+python -m sim.cli trust --entity "Pan troglodytes" --entity-kind species --dataset data/processed/animaliaecon_species_inherited.csv
+
+# run read-only API locally
+uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
+# or:
+make api-dev
 ```
+
+## Pipeline outputs
+- `data/processed/animaliaecon_taxon_priors.csv`: primary release dataset (taxon-first)
+- `data/processed/animaliaecon_species_inherited.csv`: optional species priors inherited from taxon estimates
+- `data/processed/animaliaecon_species_observed.csv`: species-level posteriors from current seed evidence
+- `data/processed/animaliaecon_evidence_species.csv`: species evidence bundle (citations + rationale hashes)
+- `data/processed/animaliaecon_evidence_taxon.csv`: taxon evidence bundle aggregated from species evidence
+- `data/interim/species_overrides_audit.csv`: audit trail of applied species overrides
+- `data/interim/taxon_overrides_audit.csv`: audit trail of applied taxon overrides
+- `data/interim/calibration_audit.csv`: audit trail of clade-level calibration operations
+- `data/interim/bayes_model_diagnostics.csv`: Bayesian diagnostics summary
+- `data/interim/bayes_posterior_predictive_checks.csv`: posterior predictive checks
+- `data/curation/species_override_review_queue.csv`: low-confidence exception queue for manual curation
+- `data/processed/animaliaecon_taxon_priors_history.csv`: release-by-release taxon prior history
+- `data/processed/animaliaecon_species_observed_history.csv`: release-by-release species prior history
+- `data/processed/animaliaecon_prior_drift_detail.csv`: per-entity per-parameter release deltas
+- `data/processed/animaliaecon_prior_drift_summary.csv`: drift summary aggregates by release/parameter
+
+## Manual Curation Layer
+Domain experts can override modeled priors via:
+- `data/curation/species_overrides.csv`
+- `data/curation/taxon_overrides.csv`
+- `data/curation/species_override_review_queue.csv` is auto-generated to focus manual work on low-confidence/high-uncertainty exceptions.
+
+Overrides are applied automatically in `make pipeline`, `make pipeline-ai`, and `make pipeline-ai-full`.
+
+## API Service
+This repo includes a read-only API to serve priors and simulation endpoints.
+
+Core endpoints:
+- `GET /v1/taxon-priors`
+- `GET /v1/taxon-priors/{rank}/{taxon}`
+- `GET /v1/species-priors/{species}`
+- `GET /v1/species/search`
+- `GET /v1/species/by-id/{id}`
+- `GET /v1/species/random`
+- `POST /v1/simulate`
+- `GET /v1/snapshots` + `/v1/snapshots/{dataset_version}/...` immutable snapshot endpoints
+
+Most read endpoints support dataset pinning with `?dataset_version=<version>`.
+
+Service contract is stabilized via `/v1` schemas in `schema/api/v1/` and the `X-API-Contract-Version` response header.
+
+## Dataset Releases
+Create versioned snapshots with checksums and changelog entries:
+
+```bash
+make release-dataset VERSION=0.3.0 NOTES="Taxon prior refresh"
+make release-dataset-tag VERSION=0.3.0 NOTES="Taxon prior refresh"
+```
+
+## OpenTree Taxonomy Backbone
+We use OpenTree taxonomy (Metazoa/Animalia branch) as the canonical hierarchy.
+
+```bash
+# Resolve latest OTT release only (no download)
+make taxonomy-meta
+
+# Download latest OTT taxonomy, extract Metazoa subtree, map phyla, render snapshot
+make taxonomy-refresh
+```
+
+Key outputs:
+- `data/processed/opentree_release_metadata.json`: resolved OTT release + archive metadata
+- `data/processed/opentree_metazoa_phyla.csv`: filtered phylum mapping under Metazoa
+- `data/interim/opentree/metazoa_subtree_nodes.csv`: extracted subtree nodes with paths
+- `docs/assets/metazoa_phyla_snapshot.png`: graph snapshot for README/reporting
+
+![OpenTree Metazoa Phyla Snapshot](docs/assets/metazoa_phyla_snapshot.png)
+![OpenTree Metazoa Hierarchy (Complex)](docs/assets/metazoa_hierarchy_complex.png)
 
 ## Repository layout
 - `data/`: raw/interim/processed assets and seed species list
 - `schema/`: parameter schema and task harmonization spec
-- `pipeline/`: ingestion, extraction, and prior estimation scripts
+- `pipeline/`: ingestion, extraction, inference, aggregation, and dataset builders
+- `api/`: read-only priors and simulation API service
 - `sim/`: simulation engine and CLI for the four games
 - `examples/`: runnable examples
 - `docs/`: methods, provenance, limitations, roadmap
 - `prompts/`: AI extraction and prior quantification prompts
+- `releases/`: versioned dataset snapshots with checksums/manifests
+
+## AWS model note
+Claude models are available through Amazon Bedrock in supported regions/accounts. This repo uses Bedrock runtime APIs and standard AWS credentials.
 
 ## Current status
-This is a bootstrap scaffold with mocked data connectors and deterministic fallbacks. It is intended to make v0 -> v1 implementation fast while keeping provenance and uncertainty first-class.
+This is a bootstrap scaffold with deterministic fallbacks and optional Bedrock AI refinement. It is intended to make v0 -> v1 implementation fast while keeping provenance and uncertainty first-class.
 
 ## License
-- Code: MIT License  
-- Dataset: CC BY 4.0 (see [DATA_LICENSE.md](/DATALICENSE.md))
+- Code: MIT License
+- Dataset: CC BY 4.0 (see [DATALICENSE.md](DATALICENSE.md))

@@ -3,11 +3,11 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 
-from common import read_csv, write_csv
+from common import ProgressPrinter, read_csv, write_csv
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Build release-ready AnimaliaEcon priors dataset.")
+    parser = argparse.ArgumentParser(description="Build species-observed AnimaliaEcon priors dataset.")
     parser.add_argument("--species", required=True, help="Species seed CSV.")
     parser.add_argument("--priors", required=True, help="Posterior priors CSV.")
     parser.add_argument("--out", required=True, help="Output processed CSV path.")
@@ -19,10 +19,12 @@ def main() -> None:
 
     generated_at = dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
     out_rows: list[dict[str, object]] = []
+    progress = ProgressPrinter(total=len(prior_rows), label="build_dataset")
 
     for pr in prior_rows:
         sp = species_rows.get(pr["species"])
         if not sp:
+            progress.tick()
             continue
 
         merged = {
@@ -36,9 +38,14 @@ def main() -> None:
             "order": sp["order"],
             "family": sp["family"],
             "genus": sp["genus"],
+            "is_seed": sp.get("is_seed", ""),
+            "candidate_source": sp.get("candidate_source", ""),
+            "candidate_confidence_score": sp.get("candidate_confidence_score", ""),
         }
         merged.update(pr)
         out_rows.append(merged)
+        progress.tick()
+    progress.finish()
 
     if not out_rows:
         raise SystemExit("No merged rows generated. Check input files.")
