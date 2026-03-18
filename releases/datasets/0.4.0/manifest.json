@@ -1,0 +1,97 @@
+{
+  "version": "0.4.0",
+  "released_at": "2026-03-18T18:18:20Z",
+  "snapshot_dir": "releases/datasets/0.4.0",
+  "files": [
+    {
+      "path": "data/processed/animaliaecon_taxon_priors.csv",
+      "snapshot_path": "releases/datasets/0.4.0/animaliaecon_taxon_priors.csv",
+      "sha256": "757ccf7baa703755c15f634d8b318a71a7950f7e87d2bfab1eb7cb335c7b842c",
+      "size_bytes": "26402"
+    },
+    {
+      "path": "data/processed/animaliaecon_species_inherited.csv",
+      "snapshot_path": "releases/datasets/0.4.0/animaliaecon_species_inherited.csv",
+      "sha256": "6002498a1abea0d4d777b5066d9f94d23a36930401777754abe75211e9e8a9a1",
+      "size_bytes": "20320"
+    },
+    {
+      "path": "data/processed/animaliaecon_species_observed.csv",
+      "snapshot_path": "releases/datasets/0.4.0/animaliaecon_species_observed.csv",
+      "sha256": "e9c778dc6ee51d9868dbf22a11494aebb88a945899fde82363bb9928e6e4a064",
+      "size_bytes": "35623"
+    },
+    {
+      "path": "data/processed/animaliaecon_evidence_species.csv",
+      "snapshot_path": "releases/datasets/0.4.0/animaliaecon_evidence_species.csv",
+      "sha256": "1426d4d13a5c0c32397027a352726ab4d62d904b44cb2a0aa068f5b43b8ba066",
+      "size_bytes": "28505"
+    },
+    {
+      "path": "data/processed/animaliaecon_evidence_taxon.csv",
+      "snapshot_path": "releases/datasets/0.4.0/animaliaecon_evidence_taxon.csv",
+      "sha256": "e81cc73ae46dee53523d63ca624fa36a523f2e1124f1bbb63240083ebdf75757",
+      "size_bytes": "35075"
+    },
+    {
+      "path": "data/processed/opentree_metazoa_phyla.csv",
+      "snapshot_path": "releases/datasets/0.4.0/opentree_metazoa_phyla.csv",
+      "sha256": "95b3038569272da3ffa46afb1872e2c74259521ca1b1f35b2a366df596f5a3b3",
+      "size_bytes": "2674"
+    },
+    {
+      "path": "data/processed/opentree_release_metadata.json",
+      "snapshot_path": "releases/datasets/0.4.0/opentree_release_metadata.json",
+      "sha256": "8dbd23dfdc74eec1b19fc39366ce158610b44358b34e15ed76f59580a017bcdf",
+      "size_bytes": "596"
+    },
+    {
+      "path": "schema/api/v1/index.json",
+      "snapshot_path": "releases/datasets/0.4.0/index.json",
+      "sha256": "4ec552e6ae3f21a4bacd2eb1be64e79cda6cbc604a6a160ec3098afb66280daa",
+      "size_bytes": "419"
+    },
+    {
+      "path": "schema/api/v1/contract.response.json",
+      "snapshot_path": "releases/datasets/0.4.0/contract.response.json",
+      "sha256": "8aeec6d6cd59a8016a059e31bfcfb6f38e46dbda1452d1f737324707b99f6a88",
+      "size_bytes": "492"
+    },
+    {
+      "path": "schema/api/v1/meta.response.json",
+      "snapshot_path": "releases/datasets/0.4.0/meta.response.json",
+      "sha256": "aa65b03ffc69fa1771e5728920a7cd5dc8f0ae8f5c10f93e60269925bc89ae50",
+      "size_bytes": "1382"
+    },
+    {
+      "path": "schema/api/v1/taxon_priors.response.json",
+      "snapshot_path": "releases/datasets/0.4.0/taxon_priors.response.json",
+      "sha256": "21924cc7a214c242e1f728f3667f0d3c11d77df2eb4651784607db7e8ffd0062",
+      "size_bytes": "382"
+    },
+    {
+      "path": "schema/api/v1/simulate.request.json",
+      "snapshot_path": "releases/datasets/0.4.0/simulate.request.json",
+      "sha256": "a548ca22113a2dc9e456d6ade10d1fe7bae2b84513de0248bdcf30fbf1d1ae13",
+      "size_bytes": "1631"
+    },
+    {
+      "path": "schema/api/v1/simulate.response.json",
+      "snapshot_path": "releases/datasets/0.4.0/simulate.response.json",
+      "sha256": "b28f918d689b3a46f20302acb7c477afd0c8eec23613aab6e3891e949935a886",
+      "size_bytes": "510"
+    },
+    {
+      "path": "docs/assets/metazoa_phyla_snapshot.png",
+      "snapshot_path": "releases/datasets/0.4.0/metazoa_phyla_snapshot.png",
+      "sha256": "df011d1fd3a6273cc94b00ab9595e0c4d3b026f6c38f1e6572dead91d8a699cd",
+      "size_bytes": "216413"
+    },
+    {
+      "path": "docs/assets/metazoa_hierarchy_complex.png",
+      "snapshot_path": "releases/datasets/0.4.0/metazoa_hierarchy_complex.png",
+      "sha256": "d1cc602b286231904b1223a060057418bf78c8d8f2c5eaf18e29b5e6822730b7",
+      "size_bytes": "1038457"
+    }
+  ]
+}

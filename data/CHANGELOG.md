@@ -33,3 +33,23 @@ Files:
 - `schema/api/v1/simulate.response.json` (b28f918d689b..., 510 bytes)
 - `docs/assets/metazoa_phyla_snapshot.png` (df011d1fd3a6..., 216413 bytes)
 - `docs/assets/metazoa_hierarchy_complex.png` (d1cc602b2862..., 1038457 bytes)
+## 0.4.0 - 2026-03-18
+
+Release candidate snapshot using reparameterized PyMC posteriors and diagnostics-gated auto fallback.
+
+Files:
+- `data/processed/animaliaecon_taxon_priors.csv` (757ccf7baa70..., 26402 bytes)
+- `data/processed/animaliaecon_species_inherited.csv` (6002498a1abe..., 20320 bytes)
+- `data/processed/animaliaecon_species_observed.csv` (e9c778dc6ee5..., 35623 bytes)
+- `data/processed/animaliaecon_evidence_species.csv` (1426d4d13a5c..., 28505 bytes)
+- `data/processed/animaliaecon_evidence_taxon.csv` (e81cc73ae46d..., 35075 bytes)
+- `data/processed/opentree_metazoa_phyla.csv` (95b303856927..., 2674 bytes)
+- `data/processed/opentree_release_metadata.json` (8dbd23dfdc74..., 596 bytes)
+- `schema/api/v1/index.json` (4ec552e6ae3f..., 419 bytes)
+- `schema/api/v1/contract.response.json` (8aeec6d6cd59..., 492 bytes)
+- `schema/api/v1/meta.response.json` (aa65b03ffc69..., 1382 bytes)
+- `schema/api/v1/taxon_priors.response.json` (21924cc7a214..., 382 bytes)
+- `schema/api/v1/simulate.request.json` (a548ca22113a..., 1631 bytes)
+- `schema/api/v1/simulate.response.json` (b28f918d689b..., 510 bytes)
+- `docs/assets/metazoa_phyla_snapshot.png` (df011d1fd3a6..., 216413 bytes)
+- `docs/assets/metazoa_hierarchy_complex.png` (d1cc602b2862..., 1038457 bytes)

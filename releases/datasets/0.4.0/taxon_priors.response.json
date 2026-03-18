@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "count": {
+      "title": "Count",
+      "type": "integer"
+    },
+    "rows": {
+      "items": {
+        "additionalProperties": {
+          "type": "string"
+        },
+        "type": "object"
+      },
+      "title": "Rows",
+      "type": "array"
+    }
+  },
+  "required": [
+    "count",
+    "rows"
+  ],
+  "title": "TaxonPriorsResponse",
+  "type": "object"
+}
