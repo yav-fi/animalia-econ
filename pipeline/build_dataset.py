@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import os
 
 from common import ProgressPrinter, read_csv, write_csv
 
@@ -11,7 +12,11 @@ def main() -> None:
     parser.add_argument("--species", required=True, help="Species seed CSV.")
     parser.add_argument("--priors", required=True, help="Posterior priors CSV.")
     parser.add_argument("--out", required=True, help="Output processed CSV path.")
-    parser.add_argument("--dataset-version", default="0.1.0", help="Dataset semantic version.")
+    parser.add_argument(
+        "--dataset-version",
+        default=os.getenv("ANIMALIA_ECON_DATASET_VERSION", "0.4.0"),
+        help="Dataset semantic version.",
+    )
     args = parser.parse_args()
 
     species_rows = {r["species"]: r for r in read_csv(args.species)}
