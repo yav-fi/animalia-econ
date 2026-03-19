@@ -5,6 +5,7 @@ import json
 import shutil
 import subprocess
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile
@@ -114,7 +115,37 @@ def deploy_lambda(
     s3_key = f"{s3_prefix.rstrip('/')}/animalia_lambda_{ts}.zip"
 
     print(f"Uploading to s3://{s3_bucket}/{s3_key} ...")
-    run(["aws", "s3", "cp", str(zip_path), f"s3://{s3_bucket}/{s3_key}", "--region", region])
+    upload_err: SystemExit | None = None
+    for attempt in range(1, 4):
+        try:
+            # Use put-object to avoid multipart upload fragility for this small artifact.
+            run(
+                [
+                    "aws",
+                    "s3api",
+                    "put-object",
+                    "--region",
+                    region,
+                    "--bucket",
+                    s3_bucket,
+                    "--key",
+                    s3_key,
+                    "--body",
+                    str(zip_path),
+                ]
+            )
+            upload_err = None
+            break
+        except SystemExit as exc:
+            upload_err = exc
+            if attempt == 3:
+                break
+            wait_s = attempt * 3
+            print(f"Upload attempt {attempt}/3 failed; retrying in {wait_s}s...")
+            time.sleep(wait_s)
+
+    if upload_err is not None:
+        raise upload_err
 
     print(f"Updating Lambda function {function_name} ...")
     update = run(
