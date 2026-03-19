@@ -251,13 +251,32 @@ def _apply_behavior_prior_proposal(base: dict[str, float], behavior_row: dict[st
     return out
 
 
-def call_bedrock_prior(prompt_text: str, model_id: str, aws_region: str) -> dict[str, float] | None:
+NON_RETRYABLE_BEDROCK_ERRORS = {
+    "ValidationException",
+    "AccessDeniedException",
+    "ResourceNotFoundException",
+    "UnrecognizedClientException",
+}
+
+
+def _error_with_detail(code: str, message: str) -> str:
+    msg = " ".join(str(message).strip().split())
+    if len(msg) > 180:
+        msg = msg[:177] + "..."
+    return f"{code}:{msg}" if msg else code
+
+
+def _error_code_only(error_detail: str) -> str:
+    return (error_detail or "").split(":", 1)[0].strip()
+
+
+def call_bedrock_prior(prompt_text: str, model_id: str, aws_region: str) -> tuple[dict[str, float] | None, str | None]:
     try:
         import boto3
         from botocore.config import Config
         from botocore.exceptions import BotoCoreError, ClientError
     except ImportError:
-        return None
+        return None, "ImportError:boto3_or_botocore_missing"
 
     try:
         client = boto3.client(
@@ -270,35 +289,41 @@ def call_bedrock_prior(prompt_text: str, model_id: str, aws_region: str) -> dict
             system=[
                 {
                     "text": (
-                        "Return only compact JSON with numeric keys: risk_preference, "
+                        "Return only compact JSON with these exact keys and numeric values: risk_preference, "
                         "temporal_discount_rate, effort_price_elasticity, cooperation_propensity, "
-                        "inequity_sensitivity, punishment_propensity, tokenization_capacity, uncertainty_sd."
+                        "inequity_sensitivity, punishment_propensity, tokenization_capacity, uncertainty_sd. "
+                        "Do not use numbered keys."
                     )
                 }
             ],
             messages=[{"role": "user", "content": [{"text": prompt_text}]}],
             inferenceConfig={"temperature": 0.1, "maxTokens": 500},
         )
-    except (BotoCoreError, ClientError, Exception):
-        return None
+    except ClientError as exc:
+        err = exc.response.get("Error", {})
+        return None, _error_with_detail(str(err.get("Code", "ClientError")), str(err.get("Message", "")))
+    except BotoCoreError as exc:
+        return None, _error_with_detail(type(exc).__name__, str(exc))
+    except Exception as exc:  # noqa: BLE001
+        return None, _error_with_detail(type(exc).__name__, str(exc))
 
     parts = response.get("output", {}).get("message", {}).get("content", [])
     joined = "\n".join(part.get("text", "") for part in parts if "text" in part).strip()
     if not joined:
-        return None
+        return None, "EmptyResponse:bedrock_response_without_text"
 
     parsed = _extract_json_payload(joined)
     if not parsed:
-        return None
+        return None, "InvalidJSON:unable_to_parse_model_output"
 
     required = PARAMS + ["uncertainty_sd"]
     if not all(k in parsed for k in required):
-        return None
+        return None, "InvalidPayload:missing_required_keys"
 
     try:
-        return {k: float(parsed[k]) for k in required}
+        return {k: float(parsed[k]) for k in required}, None
     except (TypeError, ValueError):
-        return None
+        return None, "InvalidPayload:non_numeric_required_values"
 
 
 def call_bedrock_prior_with_retries(
@@ -308,16 +333,25 @@ def call_bedrock_prior_with_retries(
     max_retries: int,
     base_backoff_seconds: float,
 ) -> tuple[dict[str, float] | None, str | None]:
+    last_error: str | None = None
     for attempt in range(max_retries + 1):
-        values = call_bedrock_prior(prompt_text, model_id=model_id, aws_region=aws_region)
+        values, error_detail = call_bedrock_prior(prompt_text, model_id=model_id, aws_region=aws_region)
         if values is not None:
             return values, None
+        last_error = error_detail or "BedrockError:unknown_failure"
+
+        error_code = _error_code_only(last_error)
+        if error_code in NON_RETRYABLE_BEDROCK_ERRORS:
+            return None, last_error
 
         if attempt < max_retries:
             sleep_seconds = base_backoff_seconds * (2**attempt)
             time.sleep(sleep_seconds)
 
-    return None, f"bedrock_call_failed_after_{max_retries + 1}_attempts"
+    suffix = f"_after_{max_retries + 1}_attempts"
+    if last_error:
+        return None, f"{last_error}{suffix}"
+    return None, f"BedrockError:unknown_failure{suffix}"
 
 
 def build_prompt(
@@ -483,8 +517,8 @@ def main() -> None:
     )
     parser.add_argument(
         "--model",
-        default=os.getenv("BEDROCK_MODEL_ID", "anthropic.claude-3-5-sonnet-20241022-v2:0"),
-        help="Bedrock model ID (for example Claude or Nova model IDs).",
+        default=os.getenv("BEDROCK_MODEL_ID", "us.amazon.nova-lite-v1:0"),
+        help="Bedrock model or inference-profile ID (for example `us.anthropic.*` or `us.amazon.nova-*`).",
     )
     parser.add_argument(
         "--aws-region",
@@ -725,11 +759,20 @@ def main() -> None:
             error_rows,
             ["species", "error_code", "model", "aws_region", "max_retries", "timestamp"],
         )
+    else:
+        err_path = Path(error_log_path)
+        if err_path.exists():
+            err_path.unlink()
 
     print(f"Wrote prior estimates: {len(out_rows)} -> {args.out}")
     print(f"Wrote signatures: {len(sig_rows)} -> {signature_out}")
     if error_rows:
         print(f"Wrote AI error log: {len(error_rows)} -> {error_log_path}")
+    elif Path(error_log_path).exists():
+        # Defensive no-op branch; kept for explicitness if filesystem state changes mid-run.
+        pass
+    else:
+        print(f"Cleared AI error log: {error_log_path}")
     print(
         "Update mode: "
         f"{args.update_mode}; reused={reused}; recalculated={recalculated}; "

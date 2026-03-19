@@ -1,0 +1,25 @@
+phylum_uid,phylum_name,depth_from_metazoa,flags,path_from_metazoa,metazoa_uid,metazoa_name
+49622,Acanthocephala,5,,Metazoa > Eumetazoa > Bilateria > Protostomia > Lophotrochozoa > Acanthocephala,691846,Metazoa
+941620,Annelida,5,,Metazoa > Eumetazoa > Bilateria > Protostomia > Lophotrochozoa > Annelida,691846,Metazoa
+632179,Arthropoda,6,,Metazoa > Eumetazoa > Bilateria > Protostomia > Ecdysozoa > Panarthropoda > Arthropoda,691846,Metazoa
+826261,Brachiopoda,5,,Metazoa > Eumetazoa > Bilateria > Protostomia > Lophotrochozoa > Brachiopoda,691846,Metazoa
+442934,Bryozoa,5,,Metazoa > Eumetazoa > Bilateria > Protostomia > Lophotrochozoa > Bryozoa,691846,Metazoa
+570366,Chaetognatha,4,,Metazoa > Eumetazoa > Bilateria > Protostomia > Chaetognatha,691846,Metazoa
+125642,Chordata,4,,Metazoa > Eumetazoa > Bilateria > Deuterostomia > Chordata,691846,Metazoa
+641033,Cnidaria,2,,Metazoa > Eumetazoa > Cnidaria,691846,Metazoa
+641212,Ctenophora,2,,Metazoa > Eumetazoa > Ctenophora,691846,Metazoa
+41147,Cycliophora,5,,Metazoa > Eumetazoa > Bilateria > Protostomia > Lophotrochozoa > Cycliophora,691846,Metazoa
+362916,Entoprocta,5,,Metazoa > Eumetazoa > Bilateria > Protostomia > Lophotrochozoa > Entoprocta,691846,Metazoa
+29723,Gastrotricha,5,,Metazoa > Eumetazoa > Bilateria > Protostomia > Lophotrochozoa > Gastrotricha,691846,Metazoa
+242963,Gnathostomulida,5,,Metazoa > Eumetazoa > Bilateria > Protostomia > Lophotrochozoa > Gnathostomulida,691846,Metazoa
+677389,Kinorhyncha,6,,Metazoa > Eumetazoa > Bilateria > Protostomia > Ecdysozoa > Scalidophora > Kinorhyncha,691846,Metazoa
+199402,Loricifera,6,,Metazoa > Eumetazoa > Bilateria > Protostomia > Ecdysozoa > Scalidophora > Loricifera,691846,Metazoa
+802117,Mollusca,5,,Metazoa > Eumetazoa > Bilateria > Protostomia > Lophotrochozoa > Mollusca,691846,Metazoa
+445195,Nemertea,5,,Metazoa > Eumetazoa > Bilateria > Protostomia > Lophotrochozoa > Nemertea,691846,Metazoa
+1072433,Onychophora,6,,Metazoa > Eumetazoa > Bilateria > Protostomia > Ecdysozoa > Panarthropoda > Onychophora,691846,Metazoa
+691845,Orthonectida,2,,Metazoa > Mesozoa > Orthonectida,691846,Metazoa
+555379,Platyhelminthes,5,,Metazoa > Eumetazoa > Bilateria > Protostomia > Lophotrochozoa > Platyhelminthes,691846,Metazoa
+1085175,Priapulida,6,,Metazoa > Eumetazoa > Bilateria > Protostomia > Ecdysozoa > Scalidophora > Priapulida,691846,Metazoa
+100729,Rhombozoa,2,,Metazoa > Mesozoa > Rhombozoa,691846,Metazoa
+471706,Rotifera,5,,Metazoa > Eumetazoa > Bilateria > Protostomia > Lophotrochozoa > Rotifera,691846,Metazoa
+111438,Tardigrada,6,,Metazoa > Eumetazoa > Bilateria > Protostomia > Ecdysozoa > Panarthropoda > Tardigrada,691846,Metazoa

@@ -50,7 +50,7 @@ System instruction requires strict JSON output with:
 
 ## Bedrock model call
 `quantify_priors_ai.py` uses Bedrock `converse` API with:
-- `BEDROCK_MODEL_ID` (default Claude Sonnet model ID)
+- `BEDROCK_MODEL_ID` (default active inference-profile ID: `us.amazon.nova-lite-v1:0`)
 - `AWS_REGION`
 - low-temperature settings for stable numeric output
 - explicit timeout config (`connect_timeout=8`, `read_timeout=35`)
@@ -59,6 +59,7 @@ System instruction requires strict JSON output with:
   - `--ai-base-backoff-seconds` (default `1.0`)
 
 If Bedrock call fails or returns invalid JSON, the script falls back to deterministic priors.
+Failure rows now include specific Bedrock error codes/messages (for example `ValidationException:*`, `AccessDeniedException:*`) in the AI error log.
 Per-species failures are logged to `data/interim/priors_estimated_ai_errors.csv` (or `--error-log` path).
 
 ## Output meaning

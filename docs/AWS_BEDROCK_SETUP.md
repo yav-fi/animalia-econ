@@ -11,10 +11,11 @@ Use any standard mechanism:
 ## 2) Set region and model
 ```bash
 export AWS_REGION=us-east-1
-export BEDROCK_MODEL_ID=anthropic.claude-3-5-sonnet-20241022-v2:0
+export BEDROCK_MODEL_ID=us.amazon.nova-lite-v1:0
 ```
 
-You can switch to another Bedrock model ID (for example Amazon Nova) by changing `BEDROCK_MODEL_ID`.
+Use an active Bedrock model/inference-profile ID available in your account (for example `us.amazon.nova-lite-v1:0`).
+If Bedrock returns a message about unsupported on-demand throughput, switch to an inference profile ID (`us.*`/`global.*`) instead of a direct foundation model ID.
 
 ## 3) Enable model access in Bedrock
 In AWS Console -> Bedrock -> Model access, request/enable the model in your region.

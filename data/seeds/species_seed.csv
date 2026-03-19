@@ -1,6 +1,6 @@
 species,kingdom,phylum,class,order,family,genus,common_name,body_mass_kg,sociality_score,diet_breadth_score,activity_pattern,habitat_type,source_confidence
 Pan troglodytes,Animalia,Chordata,Mammalia,Primates,Hominidae,Pan,Chimpanzee,45.0,0.92,0.74,diurnal,forest,high
-Bonobo paniscus,Animalia,Chordata,Mammalia,Primates,Hominidae,Pan,Bonobo,39.0,0.95,0.68,diurnal,forest,high
+Pan paniscus,Animalia,Chordata,Mammalia,Primates,Hominidae,Pan,Bonobo,39.0,0.95,0.68,diurnal,forest,high
 Macaca mulatta,Animalia,Chordata,Mammalia,Primates,Cercopithecidae,Macaca,Rhesus macaque,7.7,0.85,0.66,diurnal,forest,high
 Sapajus apella,Animalia,Chordata,Mammalia,Primates,Cebidae,Sapajus,Tufted capuchin,3.3,0.81,0.71,diurnal,forest,medium
 Rattus norvegicus,Animalia,Chordata,Mammalia,Rodentia,Muridae,Rattus,Norway rat,0.35,0.58,0.63,nocturnal,urban,high

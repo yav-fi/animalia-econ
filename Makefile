@@ -1,7 +1,11 @@
 PYTHON ?= python3
 DATASET_VERSION ?= 0.4.0
+LAMBDA_FUNCTION ?= AnimaliaEconApi
+DEPLOY_REGION ?= us-east-1
+DEPLOY_BUCKET ?=
+DEPLOY_PREFIX ?= deployments/animaliaeconapi
 
-.PHONY: taxonomy-meta taxonomy-refresh validate-data validate-taxonomy api-schema contract-check pipeline pipeline-ai pipeline-ai-full release-dataset release-dataset-tag prior-history benchmark-sim api-dev demo test
+.PHONY: taxonomy-meta taxonomy-refresh validate-data validate-taxonomy api-schema contract-check pipeline pipeline-ai pipeline-ai-full release-dataset release-dataset-tag prior-history benchmark-sim api-dev deploy-api demo test
 
 taxonomy-meta:
 	$(PYTHON) pipeline/fetch_opentree_taxonomy.py --metadata-out data/processed/opentree_release_metadata.json
@@ -99,6 +103,9 @@ release-dataset-tag:
 
 api-dev:
 	uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
+
+deploy-api:
+	$(PYTHON) api/deploy_lambda.py --function-name $(LAMBDA_FUNCTION) --region $(DEPLOY_REGION) --s3-prefix $(DEPLOY_PREFIX) $(if $(DEPLOY_BUCKET),--s3-bucket $(DEPLOY_BUCKET),)
 
 demo:
 	$(PYTHON) examples/run_demo.py

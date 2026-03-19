@@ -7,7 +7,7 @@ This folder stores all dataset artifacts from ingestion through release.
 - `raw/`: untouched source dumps and API pulls (gitignored except `.gitkeep`)
 - `interim/`: normalized intermediate tables for modeling
 - `processed/`: release-ready tables for app/simulation use
-- `seeds/`: manually curated seed species and metadata
+- `seeds/`: baseline species + candidate-bank wishlist + clade coverage targets
 - `curation/`: manual override files for species/taxon priors
 
 ## Core outputs
@@ -40,3 +40,10 @@ This folder stores all dataset artifacts from ingestion through release.
 ## Conventions
 - Every row should include `taxonomy_source`, `source_version`, and `provenance_type`.
 - Distinguish `observed`, `imputed_taxonomy`, `imputed_trait`, and `ai_estimated`.
+
+## Adding species coverage
+- Use `seeds/species_seed.csv` for always-on baseline species.
+- Use `seeds/species_candidate_bank.csv` as the wishlist/pool for expansion.
+- Use `seeds/target_clades.csv` to set per-clade `target_n` coverage goals.
+- Expansion is performed by `pipeline/expand_species_candidates.py` and summarized in `interim/species_expansion_coverage.csv`.
+- See `seeds/README.md` for the row-level checklist and examples.

@@ -2,12 +2,6 @@
 
 AnimaliaEcon is an open, machine-readable dataset and reproducible pipeline for estimating economic-game priors across Animalia.
 
-The project starts with four simulation-ready game families:
-- Public Goods Game (cooperation/contribution)
-- Ultimatum Game (fairness/inequity sensitivity)
-- Trust Game (reciprocal exchange)
-- Risk Choice Task (risk tolerance)
-
 ## Core direction
 - Taxon-first priors: build robust priors at higher ranks first (`phylum`, `class`, `order`, `family`)
 - Deterministic waterfall baseline: estimate deterministic priors at higher ranks, then blend down to species
@@ -31,7 +25,7 @@ pip install -r requirements.txt
 
 # Optional AI refinement via Bedrock (Claude/Nova/etc.)
 export AWS_REGION=us-east-1
-export BEDROCK_MODEL_ID=anthropic.claude-3-5-sonnet-20241022-v2:0
+export BEDROCK_MODEL_ID=us.amazon.nova-lite-v1:0
 
 make pipeline
 # or, if Bedrock credentials/model access are ready:
@@ -79,6 +73,18 @@ make api-dev
 - `data/processed/animaliaecon_species_observed_history.csv`: release-by-release species prior history
 - `data/processed/animaliaecon_prior_drift_detail.csv`: per-entity per-parameter release deltas
 - `data/processed/animaliaecon_prior_drift_summary.csv`: drift summary aggregates by release/parameter
+
+## Adding animals (seed vs wishlist)
+- `data/seeds/species_seed.csv` is the committed baseline set that always enters the pipeline.
+- `data/seeds/species_candidate_bank.csv` is the wishlist/candidate pool used to fill clade targets.
+- `data/seeds/target_clades.csv` controls how many species to include per target clade (`target_n`).
+- `pipeline/expand_species_candidates.py` pulls from the candidate bank when a target clade is below `target_n`.
+- `data/interim/species_expansion_coverage.csv` reports target coverage and shortfalls after expansion.
+
+Quick workflow:
+1. Add new wishlist rows to `data/seeds/species_candidate_bank.csv`.
+2. Increase clade targets in `data/seeds/target_clades.csv` if you want larger cohorts.
+3. Run `make pipeline` (or `make pipeline-ai`) and check `data/interim/species_expansion_coverage.csv`.
 
 ## Manual Curation Layer
 Domain experts can override modeled priors via:
@@ -148,7 +154,14 @@ Key outputs:
 Claude models are available through Amazon Bedrock in supported regions/accounts. This repo uses Bedrock runtime APIs and standard AWS credentials.
 
 ## Current status
-This is a bootstrap scaffold with deterministic fallbacks and optional Bedrock AI refinement. It is intended to make v0 -> v1 implementation fast while keeping provenance and uncertainty first-class.
+As of March 18, 2026, the repo is an operational taxon-first pipeline with:
+- OpenTree Metazoa taxonomy refresh automation
+- candidate-bank expansion by clade with coverage reporting
+- deterministic + Bedrock-assisted prior estimation
+- full Bayesian pooling path (PyMC with diagnostics/PPC artifacts, empirical fallback in `--engine auto`)
+- manual curation overrides and review-queue generation
+- release snapshots, prior history, and drift tracking
+- read-only API endpoints with versioned `/v1` schema contracts
 
 ## License
 - Code: MIT License

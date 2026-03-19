@@ -337,5 +337,9 @@ def snapshot_species_search(
 
 @app.post("/v1/snapshots/{dataset_version}/simulate", response_model=SimulateResponse)
 def snapshot_simulate(dataset_version: str, req: SimulateRequest) -> SimulateResponse:
-    req_with_version = req.model_copy(update={"dataset_version": dataset_version})
+    # Compatibility across Pydantic v2 (`model_copy`) and v1 (`copy`).
+    if hasattr(req, "model_copy"):
+        req_with_version = req.model_copy(update={"dataset_version": dataset_version})
+    else:
+        req_with_version = req.copy(update={"dataset_version": dataset_version})
     return simulate_endpoint(req_with_version)

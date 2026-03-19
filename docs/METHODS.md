@@ -1,4 +1,4 @@
-# Methods (Bootstrap)
+# Methods (Current)
 
 ## Objective
 Estimate simulation-ready economic priors with explicit uncertainty, prioritizing higher taxonomic coverage first.
@@ -32,4 +32,6 @@ Estimate simulation-ready economic priors with explicit uncertainty, prioritizin
 - Ensures missing/sparse species inherit coherent clade structure instead of free-floating species-only heuristics.
 
 ## Next upgrade path
-Move from empirical-Bayes closed-form updates to full probabilistic inference (PyMC/Stan) with explicit study-level likelihoods and posterior predictive checks.
+- Extend PyMC model structure from taxonomy-level pooling to richer study-level likelihood terms.
+- Broaden calibration anchors beyond current clade tables and tighten calibration diagnostics gates.
+- Expand under-covered clades in the candidate bank while maintaining evidence-quality thresholds.

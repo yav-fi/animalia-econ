@@ -1,25 +1,27 @@
 # Roadmap
 
-## Phase 0 (now)
-- Scaffold repository
-- Seed species + schema
-- Taxon-first deterministic extraction and simulation baseline
-- OpenTree Metazoa refresh automation and phylum snapshot graph
+## Snapshot (March 18, 2026)
+- Completed: repository scaffold, taxonomy refresh automation, taxon-first deterministic baseline, candidate expansion, Bedrock-assisted estimation, evidence bundles, curation overrides, release snapshots, prior histories/drift reports, and read-only `/v1` API contracts.
+- In progress: hardening Bayesian diagnostics gates and broadening clade calibration coverage.
+- Next focus: expand species coverage without lowering evidence quality, then promote hosted API + simulation UX.
 
-## Phase 1
-- Source connectors for taxonomy + broad trait repositories
-- AWS Bedrock-assisted study extraction pipeline
-- Expand candidate coverage by target clades with confidence scoring
-- Auto-generate evidence confidence + prior proposal payloads per species
-- Publish first reproducible taxon-prior table and model card
+## Phase 0 (foundation) - complete
+- Scaffold repository and schema
+- Seed species + deterministic extraction baseline
+- OpenTree Metazoa refresh automation and hierarchy snapshots
 
-## Phase 2
-- Full probabilistic Bayesian model (PyMC NUTS in place; extend to richer study-level likelihoods)
-- Continuous calibration updates from curated behavioral benchmark tables
-- Posterior predictive checks + diagnostics artifacts integrated into pipeline validation
-- Web demo with game simulation controls and evidence provenance views
+## Phase 1 (pipeline breadth) - complete
+- Candidate expansion by target clades with confidence scoring
+- AWS Bedrock-assisted prior estimation with deterministic fallback
+- Species/taxon evidence bundle generation
+- Reproducible taxon-prior release artifacts
 
-## Phase 3
-- Continuous data updates
+## Phase 2 (inference rigor) - active
+- Full probabilistic Bayesian model in pipeline (PyMC NUTS path with fallback engine)
+- Calibration and posterior predictive checks integrated
+- Ongoing work: richer study-level likelihoods and stricter diagnostics thresholds
+
+## Phase 3 (productization) - active
+- Continuous dataset updates and release cadence
 - Public API and hosted simulation environment
-- Automated drift alerts and release quality dashboards
+- Drift alerting and release quality dashboards

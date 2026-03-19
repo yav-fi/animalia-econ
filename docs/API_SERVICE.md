@@ -13,6 +13,20 @@ uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
 make api-dev
 ```
 
+## Deploy backend API (Lambda URL)
+```bash
+# Default:
+make deploy-api
+
+# Optional overrides:
+make deploy-api LAMBDA_FUNCTION=AnimaliaEconApi DEPLOY_REGION=us-east-1 DEPLOY_BUCKET=<bucket-name> DEPLOY_PREFIX=deployments/animaliaeconapi
+```
+
+What it does:
+- Builds a Lambda zip with API code, simulation module, processed datasets, release snapshots, and `/v1` schema artifacts.
+- Stages the zip to S3, updates the Lambda function code, waits for completion, then prints the function URL and verify command.
+- Default deploy dependencies are pinned for Lambda-compatible packaging from non-Linux hosts (`fastapi==0.95.2`, `pydantic==1.10.24`, `mangum==0.17.0`).
+
 ## Configuration
 - `ANIMALIA_ECON_API_KEYS`: comma-separated API keys. If empty, auth is disabled.
 - `ANIMALIA_ECON_RATE_LIMIT_PER_MINUTE`: fixed-window request limit per client key/IP (default `240`).
