@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "api_version": {
+      "title": "Api Version",
+      "type": "string"
+    },
+    "contract_version": {
+      "title": "Contract Version",
+      "type": "string"
+    },
+    "policy": {
+      "title": "Policy",
+      "type": "string"
+    },
+    "schema_dir": {
+      "title": "Schema Dir",
+      "type": "string"
+    }
+  },
+  "required": [
+    "api_version",
+    "contract_version",
+    "policy",
+    "schema_dir"
+  ],
+  "title": "ContractResponse",
+  "type": "object"
+}

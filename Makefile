@@ -95,10 +95,12 @@ pipeline-ai-full:
 
 release-dataset:
 	@test -n "$(VERSION)" || (echo "VERSION is required, e.g. make release-dataset VERSION=0.3.0"; exit 1)
+	$(MAKE) pipeline-ai PYTHON=$(PYTHON) DATASET_VERSION=$(VERSION)
 	$(PYTHON) pipeline/release_dataset.py --version $(VERSION) --notes "$(NOTES)"
 
 release-dataset-tag:
 	@test -n "$(VERSION)" || (echo "VERSION is required, e.g. make release-dataset-tag VERSION=0.3.0"; exit 1)
+	$(MAKE) pipeline-ai PYTHON=$(PYTHON) DATASET_VERSION=$(VERSION)
 	$(PYTHON) pipeline/release_dataset.py --version $(VERSION) --notes "$(NOTES)" --tag
 
 api-dev:
