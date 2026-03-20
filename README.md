@@ -7,7 +7,7 @@ AnimaliaEcon is an open, machine-readable dataset and reproducible pipeline for 
 - Deterministic waterfall baseline: estimate deterministic priors at higher ranks, then blend down to species
 - Coverage expansion by clade: auto-expand candidate species lists with per-row confidence scoring
 - Optional species inheritance: species can inherit from the nearest modeled taxon rank
-- AWS-first AI inference: use Amazon Bedrock models (including Anthropic Claude on Bedrock)
+- AWS-first AI inference: use Amazon Bedrock models (Nova)
 - Formal hierarchical Bayesian pooling across taxonomy with propagated posterior uncertainty
 - Full Bayesian inference path (PyMC NUTS) with posterior predictive checks and diagnostics artifacts
 - Clade-level calibration to known behavioral-study anchors
@@ -15,7 +15,7 @@ AnimaliaEcon is an open, machine-readable dataset and reproducible pipeline for 
 - Strict output validation: processed datasets are schema-checked in pipeline targets
 
 ## Animalia Labs
-Explore interactive demos and future hosted tools at [AnimaliaLabs.com](https://animalialabs.com). The goal there is to let users query taxa, inspect priors, and run game simulations in-browser.
+Explore interactive demos and future hosted tools at [AnimaliaLabs.com](https://animalialabs.com). There users can query species, inspect priors, and run game simulations in-browser.
 
 ## Quickstart
 ```bash
@@ -83,7 +83,7 @@ make api-dev
 
 Quick workflow:
 1. Add new wishlist rows to `data/seeds/species_candidate_bank.csv`.
-2. Increase clade targets in `data/seeds/target_clades.csv` if you want larger cohorts.
+2. Increase clade targets in `data/seeds/target_clades.csv` for larger cohorts.
 3. Run `make pipeline` (or `make pipeline-ai`) and check `data/interim/species_expansion_coverage.csv`.
 
 ## Manual Curation Layer
@@ -150,8 +150,8 @@ Key outputs:
 - `prompts/`: AI extraction and prior quantification prompts
 - `releases/`: versioned dataset snapshots with checksums/manifests
 
-## AWS model note
-Claude models are available through Amazon Bedrock in supported regions/accounts. This repo uses Bedrock runtime APIs and standard AWS credentials.
+## AWS usage note
+This repo uses Bedrock runtime APIs and standard AWS credentials.
 
 ## Current status
 As of March 18, 2026, the repo is an operational taxon-first pipeline with:
