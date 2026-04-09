@@ -6,6 +6,11 @@ Read-only FastAPI service for dataset access and simulation utilities.
 - Local: `http://localhost:8000`
 - Deployed (AnimaliaEcon Lambda URL): `https://rjyk2byic5rizunv6t4osudxpu0cnzgx.lambda-url.us-east-1.on.aws`
 
+## Release context
+- Latest app tag: `v0.5.0` (`2026-03-19`)
+- Latest dataset snapshot: `0.6.0` (`dataset-v0.6.0`, `2026-03-19`)
+- Snapshot versions available to `/v1/snapshots`: `0.6.0`, `0.5.0`, `0.4.0`, `0.3.1`, `0.3.0`
+
 ## Run locally
 ```bash
 uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
@@ -64,3 +69,4 @@ What it does:
   - `X-RateLimit-Limit-Minute`
 - Contract schemas are snapshotted under `schema/api/v1/`.
 - `dataset_version` is included in stats, species search hits, random species, and by-id payloads for reproducibility.
+- If `dataset_version` is omitted, the API serves `latest` (currently `0.6.0`).

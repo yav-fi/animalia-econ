@@ -98,6 +98,8 @@ Overrides are applied automatically in `make pipeline`, `make pipeline-ai`, and 
 This repo includes a read-only API to serve priors and simulation endpoints.
 
 Core endpoints:
+- `GET /v1/contract`
+- `GET /v1/metrics`
 - `GET /v1/taxon-priors`
 - `GET /v1/taxon-priors/{rank}/{taxon}`
 - `GET /v1/species-priors/{species}`
@@ -114,9 +116,13 @@ Service contract is stabilized via `/v1` schemas in `schema/api/v1/` and the `X-
 ## Dataset Releases
 Create versioned snapshots with checksums and changelog entries:
 
+- Latest dataset release in this repo: `0.6.0` (`dataset-v0.6.0`, released `2026-03-19`)
+- Available snapshot versions: `0.6.0`, `0.5.0`, `0.4.0`, `0.3.1`, `0.3.0`
+
 ```bash
-make release-dataset VERSION=0.3.0 NOTES="Taxon prior refresh"
-make release-dataset-tag VERSION=0.3.0 NOTES="Taxon prior refresh"
+# use the next unreleased dataset version
+make release-dataset VERSION=0.7.0 NOTES="Taxon prior refresh"
+make release-dataset-tag VERSION=0.7.0 NOTES="Taxon prior refresh"
 ```
 
 ## OpenTree Taxonomy Backbone
@@ -154,7 +160,9 @@ Key outputs:
 This repo uses Bedrock runtime APIs and standard AWS credentials.
 
 ## Current status
-As of March 18, 2026, the repo is an operational taxon-first pipeline with:
+As of March 19, 2026, the repo is an operational taxon-first pipeline with:
+- latest app release tag `v0.5.0` and latest dataset release tag `dataset-v0.6.0`
+- latest dataset size (`0.6.0`): `306` taxon rows, `500` species-observed rows, `500` species-inherited rows
 - OpenTree Metazoa taxonomy refresh automation
 - candidate-bank expansion by clade with coverage reporting
 - deterministic + Bedrock-assisted prior estimation

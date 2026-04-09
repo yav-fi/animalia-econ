@@ -1,5 +1,10 @@
 # Documentation
 
+Latest release context (March 19, 2026):
+- App tag: `v0.5.0`
+- Dataset tag: `dataset-v0.6.0` (`306` taxon rows, `500` species-observed rows, `500` species-inherited rows)
+- Dataset changelog: `data/CHANGELOG.md`
+
 - `METHODS.md`: modeling and inference approach
 - `AWS_BEDROCK_SETUP.md`: AWS model setup and runtime notes
 - `TAXONOMY_REFRESH.md`: OpenTree refresh and update cadence

@@ -3,14 +3,18 @@
 ## Goal
 Create repeatable, versioned dataset snapshots with checksums and changelog.
 
+Current latest snapshot in-repo: `0.6.0` (`dataset-v0.6.0`, released `2026-03-19`).
+
 ## Commands
 ```bash
 # Snapshot only
-make release-dataset VERSION=0.3.0 NOTES="Taxon prior refresh"
+make release-dataset VERSION=0.7.0 NOTES="Taxon prior refresh"
 
 # Snapshot + git tag
-make release-dataset-tag VERSION=0.3.0 NOTES="Taxon prior refresh"
+make release-dataset-tag VERSION=0.7.0 NOTES="Taxon prior refresh"
 ```
+
+Use the next unreleased semver; rerunning an existing version fails unless `--force` is passed to `pipeline/release_dataset.py`.
 
 ## What it does
 - Copies release files into `releases/datasets/<version>/`

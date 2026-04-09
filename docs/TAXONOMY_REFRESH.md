@@ -31,3 +31,5 @@ make taxonomy-refresh
 - `data/processed/opentree_metazoa_phyla.csv`
 - `docs/assets/metazoa_phyla_snapshot.png`
 - `docs/assets/metazoa_hierarchy_complex.png`
+
+Current value in latest dataset snapshot (`0.6.0`): OpenTree release `ott3.7.3`.
